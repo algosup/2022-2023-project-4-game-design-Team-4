@@ -20,7 +20,15 @@ Other team members:
 	- [1. Introduction](#1-introduction)
 		- [1.1. Purpose of the document](#11-purpose-of-the-document)
 		- [1.2. Purpose of the project](#12-purpose-of-the-project)
-	- [Glossary](#glossary)
+	- [2. Minimum System Requirements](#2-minimum-system-requirements)
+	- [3. Graphics](#3-graphics)
+	- [4. User Interface](#4-user-interface)
+	- [5. Audio](#5-audio)
+	- [6. Gameplay Features](#6-gameplay-features)
+	- [7. Programming](#7-programming)
+	- [8. Testing and Debugging](#8-testing-and-debugging)
+	- [9. Deployment Platforms](#9-deployment-platforms)
+	- [10. Glossary](#10-glossary)
 
 </details>
 
@@ -38,7 +46,42 @@ The purpose of this project is to create a fully working game using Unreal Engin
 
 Our group has chosen to create a Tower Defense game based on a bank universe
 
-## Glossary
+## 2. Minimum System Requirements
+
+Here are the minimum and recommended system requirements for the game:
+
+| **Name** | **Minimum** | **Recommended** |
+|:--------:|:-----------:|:---------------:|
+
+## 3. Graphics
+
+<!-- pecifications for character models, environments, textures, lighting, special effects, and other graphical elements, such as resolution, level of detail, shaders, etc. -->
+
+## 4. User Interface
+
+<!-- Specifications for menus, buttons, icons, dialogue windows, progress indicators, progress bars, sliders, etc. -->
+
+## 5. Audio
+
+<!-- Specifications for sound effects, music, voiceovers, etc. This includes sound quality, file format, audio channels, etc. -->
+
+## 6. Gameplay Features
+
+<!-- Specifications for gameplay elements such as tower types, enemy types, level types, attack types, defense mechanisms, win/loss conditions, rewards, upgrades, bonuses, etc. -->
+
+## 7. Programming
+
+<!-- Specifications for programming features such as scripts, modules, plugins, programming languages, libraries, etc. -->
+
+## 8. Testing and Debugging
+
+<!-- Specifications for quality and performance testing, test scenarios, debugging tools, bug reports, etc. -->
+
+## 9. Deployment Platforms
+
+<!-- Specifications for deployment platforms such as Steam, Google Play, Apple Store, etc. -->
+
+## 10. Glossary
 
 | **Name** | **Abrevation** | **Definition** |
 |:--------:|:--------------:|:--------------:|
