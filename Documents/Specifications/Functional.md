@@ -4,25 +4,30 @@
 
 
 ___
+
 <details>
 <summary>Table of Contents</summary>
 
 - [2022-2023 Project4 - Game Design - Group 4](#2022-2023-project4---game-design---group-4)
 - [Project Team](#project-team)
+- [Stakeholders](#stakeholders)
 - [1. Introduction](#1-introduction)
   - [1.1. Purpose of the document](#11-purpose-of-the-document)
   - [1.2. Purpose of the project](#12-purpose-of-the-project)
 - [2. Goal of the project](#2-goal-of-the-project)
   - [2.1. In scope](#21-in-scope)
   - [2.2. Out of scope](#22-out-of-scope)
-  - [2.3. Future](#23-future)
+  - [2.3. Future updates](#23-future-updates)
   - [2.4. Deadlines](#24-deadlines)
-- [3. Personas](#3-personas)
-  - [3.1. The Gamer : Ethan](#31-the-gamer--ethan)
-  - [3.2. The Worker : John](#32-the-worker--john)
-  - [3.4. The Passionate : Chris](#34-the-passionate--chris)
-  - [3.3. The Involved : Marie](#33-the-involved--marie)
-- [4. Glossary](#4-glossary)
+- [3. The Game](#3-the-game)
+- [3.1. The Opponents](#31-the-opponents)
+- [3.2. The Towers](#32-the-towers)
+- [4. Personas](#4-personas)
+  - [4.1. The Gamer : Ethan](#41-the-gamer--ethan)
+  - [4.2. The Worker : John](#42-the-worker--john)
+  - [4.3. The Passionate : Chris](#43-the-passionate--chris)
+  - [4.4. The Involved : Marie](#44-the-involved--marie)
+- [5. Glossary](#5-glossary)
 </details>
 
 ___
@@ -38,6 +43,10 @@ ___
 | Vivien Bistrel TSANGUE | Software Engineer |
 | Robin DEBRY            | QA                |
 
+# Stakeholders
+
+- ALGOSUP 
+- Users
 
 # 1. Introduction
 
@@ -68,11 +77,14 @@ A mobile version of the game is not planned for the moment. The game will be ava
 
 Also, the game will be exclusively in English for the moment, a French translation will be added later.
 
-
-## 2.3. Future 
-
+A multiplayer mode is not planned for the moment.
 
 
+## 2.3. Future updates
+
+The game will be updated regularly with new features such as the current out of scope features, new maps, new opponents, new towers, new skins, etc... 
+
+If the project is a success, we will also consider to publish the game on platforms such as Steam or Epic Games Store.
 
 ## 2.4. Deadlines
 
@@ -87,10 +99,38 @@ Here's the workshop game pipeline:
 
 Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Prototype → Demo and/or Vertical Slice → Testing & Iterating → Final Game
 
+# 3. The Game
 
-# 3. Personas
+Our game is a Tower Defense PC game based on a bank universe where the player has to defend his bank from different types of criminals thanks to several types of towers.
 
-## 3.1. The Gamer : Ethan
+# 3.1. The Opponents
+
+Here is a table of the different types of opponents that the player will have to face in the game :
+
+| Opponent | Description | Health | Speed | Damage | Reward |
+| -------- | ----------- | ------ | ----- | ------ | ------ |
+| Thief    | A thief is a small opponent that will try to steal money from the bank. He will be able to steal money from the bank's vault. | X | X | X | X |
+| Warrior | A warrior is a medium opponent  | X | X | X | X |
+| Boss | A boss is a big opponent  | X | X | X | X |
+
+# 3.2. The Towers
+
+To defend the bank, the player will have to place towers on the map. Here is a table of the different types of towers that the player will be able to place :
+
+| Tower | Type | Description | Damage | Range | Fire Rate | Cost |
+| ----- | ---- | ----------- | ------ | ----- | --------- | ---- |
+| Gunner | X | X | X | X | X | X |
+| X | AOE | X | X | X | X | X |
+| X | Slow | X | X | X | X | X |
+| X | Burst | X | X | X | X | X |
+| Banker | Income | X | X | X | X | X |
+
+
+
+
+# 4. Personas
+
+## 4.1. The Gamer : Ethan
 
 <div align="center">
   <img src="./../Images/Personas/jeune1.jpeg" width="128">
@@ -99,7 +139,7 @@ Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Proto
 Ethan is a 15 year old French student who loves playing all kinds of video games. He is currently studying in a high school, specifically in the computer science branch. He often visits the Steam shop to find new games because he is often bored with his games. Recently, he saw the release of our new game 
 
 
-## 3.2. The Worker : John
+## 4.2. The Worker : John
 
 <div align="center">
   <img src="./../Images/Personas/homme1.jpeg" width="128">
@@ -107,7 +147,7 @@ Ethan is a 15 year old French student who loves playing all kinds of video games
 
 John is a 33 years old worker who works as a game designer in a video game company for 7 years. He likes to play some games in his free time and he is looking for a new game to play. His friend, Mike, a coworker, told him about our game.
 
-## 3.4. The Passionate : Chris
+## 4.3. The Passionate : Chris
 
 <div align="center">
   <img src="./../Images/Personas/jeune2.jpeg" width="128">
@@ -117,7 +157,7 @@ Chris is a 24 year old game developer with a passion for video games, particular
 
 He really likes to finish every game he starts, especially collecting all the achievements. While he was on Github, he saw our game's repository and is really interested in it.
 
-## 3.3. The Involved : Marie
+## 4.4. The Involved : Marie
 
 <div align="center">
   <img src="./../Images/Personas/femme1.jpeg" width="128">
@@ -129,7 +169,7 @@ During a conversation with Chris, he told her about the game and she told him th
 
 <sub> All the profile pictures are from [Generated photo](https://generated.photos/faces/)</sub>
 
-# 4. Glossary
+# 5. Glossary
 
 | **Name** | **Abrevation** | **Definition** |
 |:--------:|:--------------:|:--------------:|
@@ -144,7 +184,3 @@ During a conversation with Chris, he told her about the game and she told him th
 *All the links in this document are clickable and redirect to the source of our glossary.*
 
 <sub>Created on 2023-02-28 by [Nicolas MIDA](https://www.linkedin.com/in/nicolas-mida/) </sub> 
-
-
-
-
