@@ -73,7 +73,7 @@ All the test provided should pass and the game should be playable.
 
 ### 3.1 Scope of testing
 
-The first step will be to pass the tests of the basics of the game so if the enemies follow the good way or not. Also the shooting of the tower. Then we will test the part more specific of the game like the movement of the tower and the part of the game where the tower can be upgraded, and the part where the base can be destroyed.
+The first step will be to pass the tests of documentation. After that I need to test the basics of the game so if the enemies follow the good way or not. Also the shooting of the tower. Then we will test the part more specific of the game like the movement of the tower and the part of the game where the tower can be upgraded, and the part where the base can be destroyed.
 
 Then, we will use our test to check if the game is what we expected. We will also test the game with other people to see if they can play it without any problem.
 
@@ -118,37 +118,27 @@ They are expected to pass all phases of the usage easily :
   - Experience in gaming : 10 years of experience in gaming  
   - Job: Teacher (Senior)
   - Why ? : He love to play games especially tower defense games. He want a new game to play.
-  -Acceptance criteria : He is able to install the game and play it without any problem.
+  - Acceptance criteria : He is able to install the game and play it without any problem.
 ```
 
 ```md
   - Name: Christina Smith
   - Age: 15 years old
   - Education: High School
-  - Experience in gaming: 
-  - Job: Software Engineer (Senior)
-  - Why ? : She is a freelance developer and wants to use Harfang's framework in her projects. She only knows Rust.
-  -Acceptance criteria : She is able to install the bindings and use them however she wants easily after a small period of time.
+  - Experience in gaming: 2 years of experience in gaming
+  - Job: Student (Junior)
+  - Why ? : She plays occasionally to games and she doesn't know a lot of games. She wants to play a new game.
+  - Acceptance criteria : She is able to install the game and play it during a little period of time per day.
 ```
 
 ```md
-  - Name: Laker James
-  - Age: 32
+  - Name: Thomas Anderson
+  - Age: 23
   - Education: Bachelor's degree in Computer Science
-  - Experience: 5 years of experience in Rust
+  - Experience: Never played a game
   - Job: Software Engineer (Junior)
-  - Why ? : He is a freelance developer and wants to start working in the field of 3D. He wants to work in Rust so he is not open to other languages.
-  -Acceptance criteria : He is able to install the bindings and use them on existing projects.
-```
-
-```md
-  - Name: Arthur Morgan
-  - Age: 40
-  - Education: Bachelor's degree in Computer Science
-  - Experience: 5 years of experience in Java
-  - Job: Software Engineer (mid)
-  - Why ? : He owns a company that uses C++ since 10 years. He wants to upgrade their system to Rust because of some limitations of c++. They don't have anything to do with 3D.
-  -Acceptance criteria : He is able to install the bindings and use them on his company's projects.
+  - Why ? : He never played a game and he wants to try it.
+  - Acceptance criteria : He need a tutorial to know how to play the game.
 ```
 
 ## 5 Testing
@@ -162,4 +152,3 @@ To test our game we will use the test plan and the test cases. We will use the t
 - **C++:** C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".
 - **Github:** GitHub is a web-based hosting service for version control using Git.
 - **Visual Studio:** Visual Studio is an integrated development environment (IDE) from Microsoft.
-
