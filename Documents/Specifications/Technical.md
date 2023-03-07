@@ -100,8 +100,8 @@ Here are the minimum and recommended system requirements for the game:
 
 <!-- Specifications for programming features such as scripts, modules, plugins, programming languages, libraries, etc. -->
 
-- **C++** is the main programming language used in the project.
-- **Blueprints** is the secondary programming language used in the project.
+- **Blueprints** is the main programming language used in the project.
+- **C++** is the secondary programming language used in the project.
 - **Unreal Engine 4** is the main game engine used in the project. (Version 4.27)
 - **Visual Studio 2019** is the main IDE used in the project.
 
