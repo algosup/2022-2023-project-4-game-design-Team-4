@@ -26,6 +26,10 @@ Other team members:
 	- [5. Audio](#5-audio)
 	- [6. Gameplay Features](#6-gameplay-features)
 	- [7. Programming](#7-programming)
+		- [7.1 Programming Languages](#71-programming-languages)
+			- [Why did we choose Blueprints?](#why-did-we-choose-blueprints)
+		- [7.2 Software](#72-software)
+			- [Why did we choose Unreal Engine 4?](#why-did-we-choose-unreal-engine-4)
 	- [8. Testing and Debugging](#8-testing-and-debugging)
 	- [9. Deployment Platforms](#9-deployment-platforms)
 	- [10. Glossary](#10-glossary)
@@ -56,10 +60,10 @@ Our group has chosen to create a Tower Defense game based on a bank universe
 
 For the moment, we are not sure about the minimum and recommended system requirements for the game. We will update this section when we will have more information about the game's assets.
 
-Here are the minimum and recommended system requirements for the game:
+<!-- Here are the minimum and recommended system requirements for the game:
 
 | **Name** | **Minimum** | **Recommended** |
-|:--------:|:-----------:|:---------------:|
+|:--------:|:-----------:|:---------------:| -->
 
 ## 3. Graphics
 
@@ -81,7 +85,7 @@ Here are the minimum and recommended system requirements for the game:
 
 <!-- Specifications for sound effects, music, voiceovers, etc. This includes sound quality, file format, audio channels, etc. -->
 
-- **Sound Effects**: We will use sound effects for the game's UI, the game's menus, the game's towers, the game's enemies, the game's projectiles, the game's explosions, the game's upgrades, the game's bonuses, the game's win/lose conditions, the game's rewards, etc.
+- **Sound Effects**: We will use sound effects for the game's menus (when a button is clicked), the game's towers (when you build them), the game's enemies (when they reach the vault), the game's projectiles, the game's upgrades, the game's win/lose conditions, the game's rewards, etc.
 - **Music**: We will use music for the game's menus, the game's UI, the game's levels, the game's win/lose conditions, the game's rewards, etc.
 - **Voiceovers**: We will probably not use voiceovers in the game.
 
@@ -99,11 +103,27 @@ Here are the minimum and recommended system requirements for the game:
 ## 7. Programming
 
 <!-- Specifications for programming features such as scripts, modules, plugins, programming languages, libraries, etc. -->
+### 7.1 Programming Languages
 
 - **Blueprints** is the main programming language used in the project.
 - **C++** is the secondary programming language used in the project.
+
+#### Why did we choose Blueprints?
+
+<!-- Why did we choose Blueprints? -->
+
+We chose Blueprints because it is a very powerful programming language. It is very easy to use and it is very easy to learn. With this programming language, we are able to create a working game with the short delay we have. By using Unreal Engine 4 and Blueprints, we are able to create a working game in a very short time.
+
+### 7.2 Software
+
 - **Unreal Engine 4** is the main game engine used in the project. (Version 4.27)
 - **Visual Studio 2019** is the main IDE used in the project.
+
+#### Why did we choose Unreal Engine 4?
+
+<!-- Why did we choose Unreal Engine 4? -->
+
+We chose Unreal Engine 4 because it is a very powerful game engine. It is very easy to use and it is very easy to learn. The blueprints system is very easy to use and it is very easy to learn. With this game engine, we are able to create a working game with the short delay we have.s
 
 ## 8. Testing and Debugging
 
