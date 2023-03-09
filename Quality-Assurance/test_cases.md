@@ -1,42 +1,145 @@
 # Test Cases for the game design project with Unreal Engine
 
-With this document, we will describe the test cases that we will use to test our game. We will describe the test cases and the expected result.
+With this document, we will describe the test cases that we will use to test our game. We will describe the test cases and the expected result. We will also describe the pre-conditions and the conditions for the test.
 
-## Test the Documentation
+<details>
+<summary> Table of content </summary>
 
-### Objective for the documentation test
+- [Test Cases for the game design project with Unreal Engine](#test-cases-for-the-game-design-project-with-unreal-engine)
+  - [1.Test the Documentation](#1test-the-documentation)
+    - [1.1.Objective for the documentation test](#11objective-for-the-documentation-test)
+    - [1.2.Pre-Conditions for the documentation test](#12pre-conditions-for-the-documentation-test)
+    - [1.3.Condition for the test](#13condition-for-the-test)
+    - [1.4.Steps for the documentation test](#14steps-for-the-documentation-test)
+  - [2.Test the idle part of the game](#2test-the-idle-part-of-the-game)
+    - [2.1.Objective for the idle part of the game](#21objective-for-the-idle-part-of-the-game)
+    - [2.2.Pre-Conditions for the idle part of the game](#22pre-conditions-for-the-idle-part-of-the-game)
+    - [2.3.Conditions for the idle part of the game](#23conditions-for-the-idle-part-of-the-game)
+    - [2.4.Steps for the idle part of the game](#24steps-for-the-idle-part-of-the-game)
+  - [3.Test camera](#3test-camera)
+    - [3.1.Objective for the camera test](#31objective-for-the-camera-test)
+    - [3.2.Pre-Conditions for the camera test](#32pre-conditions-for-the-camera-test)
+    - [3.3.Conditions for the camera test](#33conditions-for-the-camera-test)
+    - [3.4.Steps for the camera test](#34steps-for-the-camera-test)
+  - [4.Enemies Test](#4enemies-test)
+    - [4.1.Objective for the enemies test](#41objective-for-the-enemies-test)
+    - [4.2.Pre-Conditions for the enemies test](#42pre-conditions-for-the-enemies-test)
+    - [4.3.Conditions for the enemies test](#43conditions-for-the-enemies-test)
+    - [4.4.Steps for the enemies test](#44steps-for-the-enemies-test)
+  - [5.Tower Test](#5tower-test)
+    - [5.1.Objective for the tower test](#51objective-for-the-tower-test)
+    - [5.2.Pre-Conditions for the tower test](#52pre-conditions-for-the-tower-test)
+    - [5.3.Conditions for the tower test](#53conditions-for-the-tower-test)
+    - [5.4.Steps for the tower test](#54steps-for-the-tower-test)
+  - [6.Money Test](#6money-test)
+    - [6.1.Objective for the money test](#61objective-for-the-money-test)
+    - [6.2.Pre-Conditions for the money test](#62pre-conditions-for-the-money-test)
+    - [6.3.Conditions for the money test](#63conditions-for-the-money-test)
+    - [6.4.Steps for the money test](#64steps-for-the-money-test)
+  - [7.Achievement Test](#7achievement-test)
+    - [7.1.Objective for the achievement test](#71objective-for-the-achievement-test)
+    - [7.2.Pre-Conditions for the achievement test](#72pre-conditions-for-the-achievement-test)
+    - [7.3.Conditions for the achievement test](#73conditions-for-the-achievement-test)
+    - [7.4.Steps for the achievement test](#74steps-for-the-achievement-test)
+  - [8.Player stat Test](#8player-stat-test)
+    - [8.1.Objective for the player stat test](#81objective-for-the-player-stat-test)
+    - [8.2.Pre-Conditions for the player stat test](#82pre-conditions-for-the-player-stat-test)
+    - [8.3.Conditions for the player stat test](#83conditions-for-the-player-stat-test)
+    - [8.4.Steps for the player stat test](#84steps-for-the-player-stat-test)
+  - [9.Bestiary Test](#9bestiary-test)
+    - [9.1.Objective for the bestiary test](#91objective-for-the-bestiary-test)
+    - [9.2.Pre-Conditions for the bestiary test](#92pre-conditions-for-the-bestiary-test)
+    - [9.3.Conditions for the bestiary test](#93conditions-for-the-bestiary-test)
+    - [9.4.Steps for the bestiary test](#94steps-for-the-bestiary-test)
+  - [10.Settings Test](#10settings-test)
+    - [10.1.Objective for the settings test](#101objective-for-the-settings-test)
+    - [10.2.Pre-Conditions for the settings test](#102pre-conditions-for-the-settings-test)
+    - [10.3.Conditions for the settings test](#103conditions-for-the-settings-test)
+    - [10.4.Steps for the settings test](#104steps-for-the-settings-test)
+  - [11.Pause Test](#11pause-test)
+    - [11.1.Objective for the pause test](#111objective-for-the-pause-test)
+    - [11.2.Pre-Conditions for the pause test](#112pre-conditions-for-the-pause-test)
+    - [11.3.Conditions for the pause test](#113conditions-for-the-pause-test)
+    - [11.4.Steps for the pause test](#114steps-for-the-pause-test)
+  - [12.Main Menu Test](#12main-menu-test)
+    - [12.1.Objective for the main menu test](#121objective-for-the-main-menu-test)
+    - [12.2.Pre-Conditions for the main menu test](#122pre-conditions-for-the-main-menu-test)
+    - [12.3.Conditions for the main menu test](#123conditions-for-the-main-menu-test)
+    - [12.4.Steps for the main menu test](#124steps-for-the-main-menu-test)
+  - [13.Tutorial Test](#13tutorial-test)
+    - [13.1.Objective for the tutorial test](#131objective-for-the-tutorial-test)
+    - [13.2.Pre-Conditions for the tutorial test](#132pre-conditions-for-the-tutorial-test)
+    - [13.3.Conditions for the tutorial test](#133conditions-for-the-tutorial-test)
+    - [13.4.Steps for the tutorial test](#134steps-for-the-tutorial-test)
+  - [14.Audio test](#14audio-test)
+    - [14.1.Objective for the audio test](#141objective-for-the-audio-test)
+    - [14.2.Pre-Conditions for the audio test](#142pre-conditions-for-the-audio-test)
+    - [14.3.Conditions for the audio test](#143conditions-for-the-audio-test)
+    - [14.4.Steps for the audio test](#144steps-for-the-audio-test)
+  - [15.Performance Test](#15performance-test)
+    - [15.1.Objective for the performance test](#151objective-for-the-performance-test)
+    - [15.2.Pre-Conditions for the performance test](#152pre-conditions-for-the-performance-test)
+    - [15.3.Conditions for the performance test](#153conditions-for-the-performance-test)
+    - [15.4.Steps for the performance test](#154steps-for-the-performance-test)
+  - [16.Prestige Test](#16prestige-test)
+    - [16.1.Objective for the prestige test](#161objective-for-the-prestige-test)
+    - [16.2.Pre-Conditions for the prestige test](#162pre-conditions-for-the-prestige-test)
+    - [16.3.Conditions for the prestige test](#163conditions-for-the-prestige-test)
+    - [16.4.Steps for the prestige test](#164steps-for-the-prestige-test)
+  - [17.Tree of skills Test](#17tree-of-skills-test)
+    - [17.1.Objective for the tree of skills test](#171objective-for-the-tree-of-skills-test)
+    - [17.2.Pre-Conditions for the tree of skills test](#172pre-conditions-for-the-tree-of-skills-test)
+    - [17.3.Conditions for the tree of skills test](#173conditions-for-the-tree-of-skills-test)
+    - [17.4.Steps for the tree of skills test](#174steps-for-the-tree-of-skills-test)
+  - [18.End Game Test](#18end-game-test)
+    - [18.1.Objective for the end-game test](#181objective-for-the-end-game-test)
+    - [18.2.Pre-Conditions for the end-game test](#182pre-conditions-for-the-end-game-test)
+    - [18.3.Conditions for the end-game test](#183conditions-for-the-end-game-test)
+    - [18.4.Steps for the end-game test](#184steps-for-the-end-game-test)
+
+</details>
+
+## 1.Test the Documentation
+
+### 1.1.Objective for the documentation test
 
 Ensure that the documentation is well-written and understandable.
 
-### Pre-Conditions for the documentation test
+### 1.2.Pre-Conditions for the documentation test
 
 Read the documentation
 
-### Condition for the test
+### 1.3.Condition for the test
 
 |Action|Expected result|
 |---|---|
 |Correct the grammar or vocabulary mistakes|The documentation is well written and understandable|
 
-## Test the idle part of the game
+### 1.4.Steps for the documentation test
 
-### Objective for the idle part of the game
+1. Read the documentation
+2. Correct the grammar or vocabulary mistakes
+3. Verify that the documentation is well written and understandable
+
+## 2.Test the idle part of the game
+
+### 2.1.Objective for the idle part of the game
 
 To ensure that is possible for the game to be in an idle state.
 So continue if the player is not doing anything.
 
-### Pre-Conditions for the idle part of the game
+### 2.2.Pre-Conditions for the idle part of the game
 
 Create a little cookie clicker game
 
-### Conditions for the idle part of the game
+### 2.3.Conditions for the idle part of the game
 
 |Action|Expected result|
 |---|---|---|
 |Do nothing|The game continue to run and gain money|
 |Quit the game|The game continue to run and gain money|
 
-### Steps for the idle part of the game
+### 2.4.Steps for the idle part of the game
 
 1. Create a little cookie clicker game
 2. Try to do nothing
@@ -44,25 +147,25 @@ Create a little cookie clicker game
 4. Quit the game
 5. Verify that the game continues to run and gain money
 
-## Test camera
+## 3.Test camera
 
-### Objective for the camera test
+### 3.1.Objective for the camera test
 
 To ensure that the tower is working as intended.
 
-### Pre-Conditions for the camera test
+### 3.2.Pre-Conditions for the camera test
 
 Create a camera object.
 Put the camera into the scene.
 
-### Conditions for the camera test
+### 3.3.Conditions for the camera test
 
 |Action|Expected result|
 |---|---|
 |Move the mouse wheel upwards|Zoom in|
 |Move the mouse wheel downwards|Zoom out|
 
-### Steps for the camera test
+### 3.4.Steps for the camera test
 
 1. Put the camera into the scene
 2. Code in C++ to zoom in on the camera
@@ -70,19 +173,19 @@ Put the camera into the scene.
 4. Verify that the output for the zoom-in is as expected
 5. Verify that the output for the zoom-out is as expected
 
-## Enemies Test
+## 4.Enemies Test
 
-### Objective for the enemies test
+### 4.1.Objective for the enemies test
 
 To ensure that the enemy they are different depending on their class(different life, different movement speed, and different aspect). Also, enemies can move, receive damage and die.
 Also, ensure that the enemy can collect gold from the base of the player.
 
-### Pre-Conditions for the enemies test
+### 4.2.Pre-Conditions for the enemies test
 
 Create the different enemies.
 Create the path.
 
-### Conditions for the enemies test
+### 4.3.Conditions for the enemies test
 
 |Action|Expected result|
 |---|---|
@@ -95,7 +198,7 @@ Create the path.
 |When the enemies die|The enemies are not in the scene|
 |The enemies arrive at the base of the player|The enemies collect gold|
 
-### Steps for the enemies test
+### 4.4.Steps for the enemies test
 
 1. Create the enemies in the scene
 2. Create a map with a path in the scene
@@ -109,17 +212,17 @@ Create the path.
 10. Verify that the enemies die when they lose all their life
 11. Verify that the enemies are not in the scene when they die
 
-## Tower Test
+## 5.Tower Test
 
-### Objective for the tower test
+### 5.1.Objective for the tower test
 
 To ensure that the different towers can shoot except for the income tower and the tower can be upgraded.
 
-### Pre-Conditions for the tower test
+### 5.2.Pre-Conditions for the tower test
 
 Create the different towers
 
-### Conditions for the tower test
+### 5.3.Conditions for the tower test
 
 |Action|Expected result|
 |---|---|
@@ -137,7 +240,7 @@ Create the different towers
 |When an enemies is target|Turret shoot at the enemy|
 |When the turret shoot at the enemy|The enemy lose life|
 
-### Steps for the tower test
+### 5.4.Steps for the tower test
 
 1. Create the different towers in the scene
 2. Create different enemies in the scene
@@ -164,18 +267,18 @@ Create the different towers
 23. Verify that the turret can stun the enemies depending on the type of the turret
 24. Verify that the turret can earn money depending on the type of the turret
 
-## Money Test
+## 6.Money Test
 
-### Objective for the money test
+### 6.1.Objective for the money test
 
 To ensure that the player can collect money from the enemies or when he sells a tower.
 
-### Pre-Conditions for the money test
+### 6.2.Pre-Conditions for the money test
 
 Create the enemies
 Create the different towers
 
-### Conditions for the money test
+### 6.3.Conditions for the money test
 
 |Action|Expected result|
 |---|---|
@@ -184,7 +287,7 @@ Create the different towers
 |When the tower is upgraded|The player lose money|
 |When the tower is build|The player lose money|
 
-### Steps for the money test
+### 6.4.Steps for the money test
 
 1. Create the different enemies in the scene
 2. Create the different towers in the scene
@@ -195,17 +298,17 @@ Create the different towers
 7. Verify that the player loses money when the tower is upgraded
 8. Verify that the player loses money when the tower is built
 
-## Achievement Test
+## 7.Achievement Test
 
-### Objective for the achievement test
+### 7.1.Objective for the achievement test
 
 To ensure that the player can unlock the achievement when he reaches a certain amount of money or a certain wave.
 
-### Pre-Conditions for the achievement test
+### 7.2.Pre-Conditions for the achievement test
 
 Create the different enemies
 
-### Conditions for the achievement test
+### 7.3.Conditions for the achievement test
 
 |Action|Expected result|
 |---|---|
@@ -214,7 +317,7 @@ Create the different enemies
 |When the player unlock an achievement|The player can see the achievement in the achievement menu|
 |Create the different enemies|When the player reach kill a certain enemy|The player unlock an achievement|
 
-### Steps for the achievement test
+### 7.4.Steps for the achievement test
 
 1. Create the different enemies in the scene
 2. Create the different towers in the scene
@@ -225,17 +328,17 @@ Create the different enemies
 7. Verify that the player can see the achievement in the achievement menu when the player unlocks an achievement
 8. Verify that the player unlocks an achievement when the player reaches kill a certain enemy
 
-## Player stat Test
+## 8.Player stat Test
 
-### Objective for the player stat test
+### 8.1.Objective for the player stat test
 
 To ensure that the player can see his stat in the menu.
 
-### Pre-Conditions for the player stat test
+### 8.2.Pre-Conditions for the player stat test
 
 Create the stat menu
 
-### Conditions for the player stat test
+### 8.3.Conditions for the player stat test
 
 |Action|Expected result|
 |---|---|
@@ -247,7 +350,7 @@ Create the stat menu
 |When the player click on his stat|The player see the total of wave reach|
 |When the player click on his stat|The player see the maximum of wave reach|
 
-### Steps for the player stat test
+### 8.4.Steps for the player stat test
 
 1. Create the different enemies in the scene
 2. Create the different towers in the scene
@@ -260,17 +363,17 @@ Create the stat menu
 9. Verify that the player sees the total of special enemies killed when the player clicks on his stat
 10. Verify that the player sees the total wave reach when the player clicks on his stat.
 
-## Bestiary Test
+## 9.Bestiary Test
 
-### Objective for the bestiary test
+### 9.1.Objective for the bestiary test
 
 To ensure that the player can see the different enemies in the bestiary.
 
-### Pre-Conditions for the bestiary test
+### 9.2.Pre-Conditions for the bestiary test
 
 Create the bestiary menu
 
-### Conditions for the bestiary test
+### 9.3.Conditions for the bestiary test
 
 |Pre-conditions|Action|Expected result|
 |---|---|---|
@@ -278,7 +381,7 @@ Create the bestiary menu
 |------------|When the player click on the bestiary menu|The player can see the different boss encounter|
 |------------|When the player click on the bestiary menu|The player can see the different special enemies encounter|
 
-### Steps for the bestiary test
+### 9.4.Steps for the bestiary test
 
 1. Create the different enemies in the scene
 2. Create the different towers in the scene
@@ -288,108 +391,108 @@ Create the bestiary menu
 6. Verify that the player can see the different boss encounters when the player clicks on the bestiary menu.
 7. Verify that the player can see the different special enemies encounter when the player clicks on the bestiary menu.
 
-## Settings Test
+## 10.Settings Test
 
-### Objective for the settings test
+### 10.1.Objective for the settings test
 
 To ensure that the player can change the settings of the game.
 
-### Pre-Conditions for the settings test
+### 10.2.Pre-Conditions for the settings test
 
 Create the settings
 
-### Conditions for the settings test
+### 10.3.Conditions for the settings test
 
 |Action|Expected result|
 |---|---|
 |When the player click on the settings menu|The player can change the volume of the game|
 |When the player click on the settings menu|The player can change the resolution of the game|
 
-### Steps for the settings test
+### 10.4.Steps for the settings test
 
 1. Create a Settings menu
 2. Verify that the player can change the volume of the game when the player clicks on the settings menu
 3. Verify that the player can change the resolution of the game when the player clicks on the settings menu
 
-## Pause Test
+## 11.Pause Test
 
-### Objective for the pause test
+### 11.1.Objective for the pause test
 
 To ensure that the player can pause the game.
 
-### Pre-Conditions for the pause test
+### 11.2.Pre-Conditions for the pause test
 
 Create the pause part.
 
-### Conditions for the pause test
+### 11.3.Conditions for the pause test
 
 |Action|Expected result|
 |---|---|
 |When the player click on the pause button|The game is paused|
 
-### Steps for the pause test
+### 11.4.Steps for the pause test
 
 1. Create a pause button
 2. Verify that the game is paused when the player clicks on the pause button
 
-## Main Menu Test
+## 12.Main Menu Test
 
-### Objective for the main menu test
+### 12.1.Objective for the main menu test
 
 To ensure that the player can access the different menus of the game.
 
-### Pre-Conditions for the main menu test
+### 12.2.Pre-Conditions for the main menu test
 
 Create the main menu.
 
-### Conditions for the main menu test
+### 12.3.Conditions for the main menu test
 
 |Action|Expected result|
 |---|---|
 |When the player click on the play button|The player can access to the game|
 |When the player click on the settings button|The player can access to the settings menu|
 
-### Steps for the main menu test
+### 12.4.Steps for the main menu test
 
 1. Create a main menu
 2. Verify that the player can access the game when the player clicks on the play button
 3. Verify that the player can access the settings menu when the player clicks on the settings button
 
-## Tutorial Test
+## 13.Tutorial Test
 
-### Objective for the tutorial test
+### 13.1.Objective for the tutorial test
 
 To ensure that the player can access the tutorial of the game.
 
-### Pre-Conditions for the tutorial test
+### 13.2.Pre-Conditions for the tutorial test
 
 Create the tutorial.
 
-### Conditions for the tutorial test
+### 13.3.Conditions for the tutorial test
 
 |Action|Expected result|
 |---|---|
 |When the player click on the start is first game|The player directly access to the tutorial|
 |When the player haver already a game save|The player can't access to the tutorial|
 
-### Steps for the tutorial test
+### 13.4.Steps for the tutorial test
 
 1. Create a tutorial
 2. Verify that the player directly access to the tutorial when the player clicks on the start is first game
 3. Verify that the player can't access to the tutorial when the player haver already a game save
 
-## Audio test
+## 14.Audio test
 
-### Objective for the audio test
+### 14.1.Objective for the audio test
 
 To ensure that the player can hear the different sounds of the game.
 
-### Pre-Conditions for the audio test
+### 14.2.Pre-Conditions for the audio test
 
 Create the different sounds of the game.
 Create tower and enemies.
 
-### Conditions for the audio test
+### 14.3.Conditions for the audio test
 
 |Action|Expected result|
 |---|---|
@@ -398,7 +501,7 @@ Create tower and enemies.
 |When the player click on the pause button|The sound of the game stop|
 |When the player click on the resume button|The sound of the game resume|
 
-### Steps for the audio test
+### 14.4.Steps for the audio test
 
 1. Create the different sounds of the game
 2. Create tower and enemies
@@ -407,48 +510,112 @@ Create tower and enemies.
 5. Verify that the sound of the game stop when the player clicks on the pause button
 6. Verify that the sound of the game resume when the player clicks on the resume button
 
-### Performance Test
+## 15.Performance Test
 
-### Objective for the performance test
+### 15.1.Objective for the performance test
 
 To ensure that the game is playable on a computer with low specifications.
 
-### Pre-Conditions for the performance test
+### 15.2.Pre-Conditions for the performance test
 
 Create the different enemies in the scene
 Create the different towers in the scene
 Create a different path in the scene
 
-### Conditions for the performance test
+### 15.3.Conditions for the performance test
 
 |Action|Expected result|
 |---|---|
 |When the player launch the game|The game is playable on a computer with low specifications|
 |Memory usage of the game|The game doesn't crash because of the memory usage|
 
-### Steps for the performance test
+### 15.4.Steps for the performance test
 
 1. Create the different enemies in the scene
 2. Create the different towers in the scene
 3. Create a path in the scene
 4. Verify that the game is playable on a computer with low specifications when the player launch the game
 
-## End Game Test
+## 16.Prestige Test
 
-### Objective for the end-game test
+### 16.1.Objective for the prestige test
+
+To ensure that the player can prestige.
+
+### 16.2.Pre-Conditions for the prestige test
+
+Create the prestige menu
+Player arrived at certain wave to prestige
+
+### 16.3.Conditions for the prestige test
+
+|Action|Expected result|
+|---|---|
+|When the player click on the prestige button|The player can prestige|
+|When the player click on the prestige button|The player can see the different rewards of the prestige|
+
+### 16.4.Steps for the prestige test
+
+1. Create the prestige menu
+2. Verify that the player can prestige when the player clicks on the prestige button
+3. Verify that the player can see the different rewards of the prestige when the player clicks on the prestige button
+
+## 17.Tree of skills Test
+
+### 17.1.Objective for the tree of skills test
+
+To ensure that the player can access the tree of skills.
+
+### 17.2.Pre-Conditions for the tree of skills test
+
+Create the tree of skills menu
+Create the different skills of the tree of skills
+Create the different levels of the tree of skills
+Player have to have prestige points to upgrade a skill in the tree of skills
+
+### 17.3.Conditions for the tree of skills test
+
+|Action|Expected result|
+|---|---|
+|When the player click on the tree of skills button|The player can access the tree of skills|
+|When the player click on the tree of skills button|The player can see the different skills of the tree of skills|
+|When the player click on the tree of skills button|The player can see the current level of the tree of skills and the level after|
+|When the player click on the tree of skills button|The player can see the different costs of the tree of skills|
+|When the player click on the skills into the tree of skills|The player can see the different descriptions of the tree of skills|
+|If the player have enough prestige points|The player can upgrade a skill in the tree of skills|
+|If the player haven't enough prestige points|The player can't upgrade a skill in the tree of skills|
+
+### 17.4.Steps for the tree of skills test
+
+1. Create the tree of skills menu
+2. Create the different skills of the tree of skills
+3. Create the different levels of the tree of skills
+4. Verify that the player can access the tree of skills when the player clicks on the tree of skills button
+5. Verify that the player can see the different skills of the tree of skills when the player clicks on the tree of skills button
+6. Verify that the player can see the current level of the tree of skills and the level after when the player clicks on the tree of skills button
+7. Verify that the player can see the different costs of the tree of skills when the player clicks on the tree of skills button
+8. Verify that the player can see the different descriptions of the tree of skills when the player clicks on the skills into the tree of skills
+9. Verify that the player can upgrade a skill in the tree of skills when the player have enough prestige points
+10. Verify that the player can't upgrade a skill in the tree of skills when the player haven't enough prestige points
+
+## 18.End Game Test
+
+### 18.1.Objective for the end-game test
 
 Ensure that the player cannot access the end-game menu because it's an infinite game.
 
-### Pre-Conditions
+### 18.2.Pre-Conditions for the end-game test
 
 Lose all your health points
+
+### 18.3.Conditions for the end-game test
 
 |Action|Expected result|
 |---|---|
 |When the player reach lose game|The player cannot access to the end game menu|
 |When the lose the game|The game re-launch at the previous wave|
 
-### Steps for the end-game test
+### 18.4.Steps for the end-game test
 
 1. Lose all your health points
 2. Verify that the player cannot access to the end game menu when the player reach lose game
