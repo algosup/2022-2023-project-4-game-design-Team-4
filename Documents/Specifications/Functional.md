@@ -15,51 +15,52 @@ ___
   - [A. Purpose of the document](#a-purpose-of-the-document)
   - [B. Purpose of the project](#b-purpose-of-the-project)
   - [C. Goal of the project](#c-goal-of-the-project)
-  - [D. Deadlines](#d-deadlines)
-- [3. Game Introduction](#3-game-introduction)
+- [2. Game Introduction](#2-game-introduction)
   - [A. Purpose](#a-purpose)
   - [B. Scope](#b-scope)
+    - [B.1. In scope](#b1-in-scope)
+    - [B.2. Out of scope](#b2-out-of-scope)
   - [C. Game Overview](#c-game-overview)
-- [4. Gameplay](#4-gameplay)
+- [3. Gameplay](#3-gameplay)
   - [A. Game Mechanics](#a-game-mechanics)
-  - [B. Objectives and goals](#b-objectives-and-goals)
+  - [B. Objective](#b-objective)
   - [C. Controls](#c-controls)
-  - [D. Game Modes](#d-game-modes)
-  - [E. Wave System](#e-wave-system)
-  - [F. Player Progression (Prestige System)](#f-player-progression-prestige-system)
-- [5. Story and Narrative](#5-story-and-narrative)
+  - [D. The Turrets](#d-the-turrets)
+  - [E. The Opponents](#e-the-opponents)
+  - [F. Wave System](#f-wave-system)
+  - [G. Player Progression (Prestige System)](#g-player-progression-prestige-system)
+- [4. Story and Narrative](#4-story-and-narrative)
   - [A. Background story](#a-background-story)
   - [B. Characters](#b-characters)
   - [C. Dialogue and narrative](#c-dialogue-and-narrative)
   - [D. Plot and story progression](#d-plot-and-story-progression)
   - [E. Ending](#e-ending)
-- [6. User Interface](#6-user-interface)
+- [5. User Interface](#5-user-interface)
   - [A. Main menu](#a-main-menu)
   - [B. In-game interface](#b-in-game-interface)
   - [C. Heads-up display (HUD)](#c-heads-up-display-hud)
-  - [D. Inventory system](#d-inventory-system)
-  - [E. Settings and options](#e-settings-and-options)
-  - [F. Tutorial and Help](#f-tutorial-and-help)
-- [7. Audio and Visuals](#7-audio-and-visuals)
+  - [D. Settings and options](#d-settings-and-options)
+  - [E. Tutorial and Help](#e-tutorial-and-help)
+- [6. Audio and Visuals](#6-audio-and-visuals)
   - [A. Graphics](#a-graphics)
   - [B. Art Style](#b-art-style)
   - [C. Animation](#c-animation)
   - [D. Sound effects](#d-sound-effects)
   - [E. Music](#e-music)
-- [8. Personas](#8-personas)
+- [7. Personas](#7-personas)
   - [A. The Gamer : Ethan](#a-the-gamer--ethan)
   - [B. The Worker : John](#b-the-worker--john)
   - [C. The Passionate : Chris](#c-the-passionate--chris)
   - [D. The Involved : Marie](#d-the-involved--marie)
-- [9. Legal Considerations](#9-legal-considerations)
+- [8. Legal Considerations](#8-legal-considerations)
   - [A. Copyright](#a-copyright)
   - [B. Intellectual property](#b-intellectual-property)
   - [C. Liability and warranties](#c-liability-and-warranties)
-- [10. Timeline and Budget](#10-timeline-and-budget)
+- [9. Timeline and Budget](#9-timeline-and-budget)
   - [A. Project milestones](#a-project-milestones)
   - [B. Development schedule](#b-development-schedule)
   - [C. Budget and Resources](#c-budget-and-resources)
-- [11. Glossary](#11-glossary)
+- [10. Glossary](#10-glossary)
 </details>
 
 ___
@@ -99,20 +100,7 @@ The goal of the project is to design, code, and produce a full game using Unreal
 The final game will have to feature some sort of gameplay innovation, and be as bug-free as possible, as well as a polished, fun, thoroughly tested and iterated upon project. 
 
 
-## D. Deadlines
-
-| Date       | Deliverable            |
-| ---------- | ---------------------- | 
-| 2023-03-03 | One sheet document     | 
-| 2023-03-10 | Working Prototype      | 
-| 2023-03-24 | Demo / Vertical Slice  |
-| 2023-04-07 | Final Game, Final Test |
-
-Here's the workshop game pipeline:
-
-Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Prototype → Demo and/or Vertical Slice → Testing & Iterating → Final Game
-
-# 3. Game Introduction
+# 2. Game Introduction
 
 ## A. Purpose 
 
@@ -120,25 +108,70 @@ The purpose of the game is to defend a bank from waves of criminals. The player 
 
 ## B. Scope
 
-The game 
+### B.1. In scope
+
+- The game will be a Tower Defense / Idle game
+- Single-player
+- PC only
+
+
+### B.2. Out of scope
+
+- Multiplayer
+- Porting to other platforms
+- Online features
+
+
 ## C. Game Overview
 
-# 4. Gameplay 
+The game takes place in a bank universe. 
+
+The player takes on the role of a bank manager who must defend the bank against several types of criminals who arrive in successive waves every 10 seconds.
+
+To do this, the player will have to build and upgrade turrets to stop the criminals from stealing the bank's money thanks to
+
+# 3. Gameplay 
 
 ## A. Game Mechanics 
 
 
-## B. Objectives and goals
+## B. Objective
+
 
 ## C. Controls
 
-## D. Game Modes
+As the map will fill the whole size of the screen, the game will mainly be played with the mouse. 
 
-## E. Wave System
+Keyboard shortcuts will be implemented to access the different categories of settings
 
-## F. Player Progression (Prestige System)
+Here the list of the different shortcuts :
 
-# 5. Story and Narrative
+| Key | Action | Description | 
+| --- | ------ | ----------- |
+| `ESC` | Pause & Settings | Pause the game and access the settings menu |
+| `Left Click` | Select | The main action of the game. Click on a pre-location to place a turret, click on a turret to upgrade it. |
+
+## D. The Turrets 
+
+
+## E. The Opponents
+
+
+## F. Wave System
+
+Every 10 seconds, a new wave of criminals will arrive. As more waves are completed, the difficulty will increase : 
+
+  - More criminals will arrive
+  - The criminals will be stronger, faster and more resistant
+
+If the player fails to stop the criminals, they will return to the previous wave. A button allows the player to choose whether to stay on this wave or to keep going. 
+
+## G. Player Progression (Prestige System)
+
+At a certain point, the player will encounter difficulties in defending the bank. To overcome this, the player will have the choice to reset the game and restart from scratch by doing a "Prestige".
+
+
+# 4. Story and Narrative
 
 ## A. Background story
 
@@ -150,8 +183,9 @@ The game
 
 ## E. Ending
 
+As the waves are infinite, the game will never end. The player will have to play as long as he wants to get the highest wave possible.
 
-# 6. User Interface
+# 5. User Interface
 
 ## A. Main menu
 
@@ -159,14 +193,16 @@ The game
 
 ## C. Heads-up display (HUD)
 
-## D. Inventory system
-
-## E. Settings and options
-
-## F. Tutorial and Help
+## D. Settings and options
 
 
-# 7. Audio and Visuals
+## E. Tutorial and Help
+
+A tutorial will be implemented to explain the game's universe and the game's mechanics. It will guide the player through the first wave however the player will be able to skip it if he wants to.
+
+In the settings menu, the player will be able to access the tutorial at any time with also some tips and tricks.
+
+# 6. Audio and Visuals
 
 ## A. Graphics
 
@@ -178,7 +214,7 @@ The game
 
 ## E. Music
 
-# 8. Personas
+# 7. Personas
 
 ## A. The Gamer : Ethan
 
@@ -220,7 +256,7 @@ During a conversation with Chris, he told her about the game and she told him th
 <sub> All the profile pictures are from [Generated photo](https://generated.photos/faces/)</sub>
 
 
-# 9. Legal Considerations
+# 8. Legal Considerations
 
 ## A. Copyright
 
@@ -229,15 +265,25 @@ During a conversation with Chris, he told her about the game and she told him th
 ## C. Liability and warranties
 
 
-# 10. Timeline and Budget
+# 9. Timeline and Budget
 
 ## A. Project milestones
 
+| Date       | Deliverable            |
+| ---------- | ---------------------- | 
+| 2023-03-03 | One sheet document     | 
+| 2023-03-10 | Working Prototype      | 
+| 2023-03-24 | Demo / Vertical Slice  |
+| 2023-04-07 | Final Game, Final Test |
+
+Here's the workshop game pipeline:
+
+Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Prototype → Demo and/or Vertical Slice → Testing & Iterating → Final Game
 ## B. Development schedule
 
 ## C. Budget and Resources
 
-# 11. Glossary
+# 10. Glossary
 
 | **Name** | **Abrevation** | **Definition** |
 |:--------:|:--------------:|:--------------:|
