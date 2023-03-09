@@ -7,7 +7,6 @@ This document is the test plan for this project. This document will list all the
 Author: [Robin DEBRY](https://github.com/robin-debry)
 
 <details>
-
 <summary> Table of content </summary>
 
 - [Test plan for game design project](#test-plan-for-game-design-project)
@@ -20,6 +19,9 @@ Author: [Robin DEBRY](https://github.com/robin-debry)
   - [2 Scope of testing](#2-scope-of-testing)
   - [3 Test Strategy](#3-test-strategy)
     - [3.1 Scope of testing](#31-scope-of-testing)
+      - [3.1.1 Test towers and enemies](#311-test-towers-and-enemies)
+      - [3.1.2 Test sound and performance](#312-test-sound-and-performance)
+      - [3.1.3 Test save and load](#313-test-save-and-load)
     - [3.2 Out of scope testing](#32-out-of-scope-testing)
   - [4 Test Environment](#4-test-environment)
   - [5 Primary User test](#5-primary-user-test)
@@ -61,7 +63,6 @@ The lead tester/QA will be responsible for insuring that the found bugs are writ
 - Visual Studio Comunity 2022
 - Github
 - Unreal Engine
-- C++
 ```
 
 ## 2 Scope of testing
@@ -73,11 +74,17 @@ All the test provided should pass and the game should be playable.
 
 ### 3.1 Scope of testing
 
+#### 3.1.1 Test towers and enemies
+
 The first step will be to pass the tests of documentation. After that I need to test the basics of the game so if the enemies follow the good way or not. Also the shooting of the tower. Then we will test the part more specific of the game like the movement of the tower and the part of the game where the tower can be upgraded, and the part where the base can be destroyed.
 
-Then, we will use our test to check if the game is what we expected. We will also test the game with other people to see if they can play it without any problem.
+Then we will test the part of the game like the part where the ennemies can be upgraded and destroyed.
 
-Then we will test the part of the game like the part where the ennemies can be upgraded and destroyed. Also test the part to know if the game is over or not.
+#### 3.1.2 Test sound and performance
+
+We will test also the sound of the game to see if the sound is working correctly, and if the sound is not too loud or too low. We will test also the performance of the game to see if the game is running correctly on the computer in each version of operating system (Mac and windows).
+
+#### 3.1.3 Test save and load
 
 The last part of the game will be the part where the game is saved and loaded. We will test if the game is saved and loaded correctly.
 
@@ -138,7 +145,7 @@ They are expected to pass all phases of the usage easily :
   - Experience: Never played a game
   - Job: Software Engineer (Junior)
   - Why ? : He never played a game and he wants to try it.
-  - Acceptance criteria : He need a tutorial to know how to play the game.
+  - Acceptance criteria : He need a tutorial to know how to play.
 ```
 
 ## 5 Testing

@@ -355,6 +355,84 @@ Create the main menu.
 2. Verify that the player can access the game when the player clicks on the play button
 3. Verify that the player can access the settings menu when the player clicks on the settings button
 
+## Tutorial Test
+
+### Objective for the tutorial test
+
+To ensure that the player can access the tutorial of the game.
+
+### Pre-Conditions for the tutorial test
+
+Create the tutorial.
+
+### Conditions for the tutorial test
+
+|Action|Expected result|
+|---|---|
+|When the player click on the start is first game|The player directly access to the tutorial|
+|When the player haver already a game save|The player can't access to the tutorial|
+
+### Steps for the tutorial test
+
+1. Create a tutorial
+2. Verify that the player directly access to the tutorial when the player clicks on the start is first game
+3. Verify that the player can't access to the tutorial when the player haver already a game save
+
+## Audio test
+
+### Objective for the audio test
+
+To ensure that the player can hear the different sounds of the game.
+
+### Pre-Conditions for the audio test
+
+Create the different sounds of the game.
+Create tower and enemies.
+
+### Conditions for the audio test
+
+|Action|Expected result|
+|---|---|
+|When the player click on the play button|The player can hear the sound of the game|
+|When a wave arrived|The player can hear the sound of a bank alarm|
+|When the player click on the pause button|The sound of the game stop|
+|When the player click on the resume button|The sound of the game resume|
+
+### Steps for the audio test
+
+1. Create the different sounds of the game
+2. Create tower and enemies
+3. Verify that the player can hear the sound of the game when the player clicks on the play button
+4. Verify that the player can hear the sound of a bank alarm when a wave arrives
+5. Verify that the sound of the game stop when the player clicks on the pause button
+6. Verify that the sound of the game resume when the player clicks on the resume button
+
+### Performance Test
+
+### Objective for the performance test
+
+To ensure that the game is playable on a computer with low specifications.
+
+### Pre-Conditions for the performance test
+
+Create the different enemies in the scene
+Create the different towers in the scene
+Create a different path in the scene
+
+### Conditions for the performance test
+
+|Action|Expected result|
+|---|---|
+|When the player launch the game|The game is playable on a computer with low specifications|
+|Memory usage of the game|The game doesn't crash because of the memory usage|
+
+### Steps for the performance test
+
+1. Create the different enemies in the scene
+2. Create the different towers in the scene
+3. Create a path in the scene
+4. Verify that the game is playable on a computer with low specifications when the player launch the game
+
 ## End Game Test
 
 ### Objective for the end-game test
@@ -369,3 +447,9 @@ Lose all your health points
 |---|---|
 |When the player reach lose game|The player cannot access to the end game menu|
 |When the lose the game|The game re-launch at the previous wave|
+
+### Steps for the end-game test
+
+1. Lose all your health points
+2. Verify that the player cannot access to the end game menu when the player reach lose game
+3. Verify that the game re-launch at the previous wave when the player lose the game
