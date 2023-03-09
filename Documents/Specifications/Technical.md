@@ -31,7 +31,7 @@ Other team members:
 		- [7.2 Software](#72-software)
 			- [Why did we choose Unreal Engine 4?](#why-did-we-choose-unreal-engine-4)
 	- [8. Testing and Debugging](#8-testing-and-debugging)
-	- [9. Deployment Platforms](#9-deployment-platforms)
+	- [9. Deployment Distribution Services](#9-deployment-distribution-services)
 	- [10. Glossary](#10-glossary)
 
 </details>
@@ -44,7 +44,7 @@ Other team members:
 
 <!--  Purpose of the document -->
 
-This document is a technical specification of the game we are going to create. It is a document that will be used by the team to guide the development of the game. It will be used to define the game's universe, the game mechanics and the game's assets.
+This document is a technical specification of the game we are going to create. It is a document that will be used by the team to guide the development of the game. It will be used to define the game's universe, the game's mechanics and the game's assets.
 
 ### 1.2. Purpose of the project
 
@@ -69,9 +69,9 @@ For the moment, we are not sure about the minimum and recommended system require
 
 <!-- Specifications for character models, environments, textures, lighting, special effects, and other graphical elements, such as resolution, level of detail, shaders, etc. -->
 
-- **Character Models**: We will use character models for the game's enemies, the game's towers, the game's upgrades, the game's bonuses, the game's rewards, etc.
-- **Environments**: We will use environments for the game's menus, the game's UI, the game's levels, the game's win/lose conditions, the game's rewards, etc.
-- **Textures**: We will use textures for the game's projectiles, the game's explosions, the game's bonuses, etc.
+- **Character Models**: We will use character models for the game's enemies, the game's towers, the game's upgrades, etc.
+- **Interface**: We will use interface for the game's menus, the game's UI, the game's levels, the game's win/lose conditions, the game's rewards, etc.
+- **Particles**: We will use particles for the game's projectiles, the game's explosions, the game's bonuses, the game's ennemies (for example, the invisible version of the fast enemy), etc.
 
 ## 4. User Interface
 
@@ -94,11 +94,11 @@ For the moment, we are not sure about the minimum and recommended system require
 <!-- Specifications for gameplay elements such as tower types, enemy types, level types, attack types, defense mechanisms, win/loss conditions, rewards, upgrades, bonuses, etc. -->
 
 - **Tower Types**: We will have 5 tower types: a basic tower, a slow tower, a splash tower (AOE), a burst tower and an income tower.
-- **Enemy Types**: We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. There will be different versions of each enemy type. For example, the fast enemy will have a version that is faster than the other versions of the fast enemy or another version that can be invisible for a short period.
+- **Enemy Types**: We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. There will be different versions of each enemy type. For example, the fast enemy will have a version that is faster than the other versions of the fast enemy, or another version that can be invisible for a short period of time. There is also a boss enemy, which is a combination of the enemy types: fast and tanky.
 - **Level Type**: Currently, we are thinking about having 2 levels: a tutorial level and the game in a bank universe.
 - **Win/Lose Conditions**: The player will win if he manages to kill all the enemies. The player will lose if he loses all his gold.
 - **Rewards**: The player will get rewards at the end of each level. The rewards will be gold, experience points, and some bonuses.
-- **Upgrades**: The player will be able to upgrade his towers. The upgrades will be damage, range, attack speed, slow and AOE efficiency, income effect, etc.
+- **Upgrades**: The player will be able to upgrade his towers. The upgrades will be: damage, range, attack speed, slow and AOE efficiency, income effect, etc.
 
 ## 7. Programming
 
@@ -112,7 +112,7 @@ For the moment, we are not sure about the minimum and recommended system require
 
 <!-- Why did we choose Blueprints? -->
 
-We chose Blueprints because it is a very powerful programming language. It is very easy to use and it is very easy to learn. With this programming language, we can create a working game with the short delay we have. By using Unreal Engine 4 and Blueprints, we can create a working game in a very short time.
+We chose Blueprints because it is a very powerful programming language. It is very easy to use and it is very easy to learn. By using Unreal Engine 4 and Blueprints, we are able to create a working game in a very short time.
 
 ### 7.2 Software
 
@@ -123,7 +123,7 @@ We chose Blueprints because it is a very powerful programming language. It is ve
 
 <!-- Why did we choose Unreal Engine 4? -->
 
-We chose Unreal Engine 4 because it is a very powerful game engine. It is very easy to use and it is very easy to learn. The blueprints system is very easy to use and it is very easy to learn. With this game engine, we can create a working game with the short delay we have.s
+We chose Unreal Engine 4 because it is a very powerful game engine. It is very easy to use and it is very easy to learn. The blueprints system help us a lot to create a game. With this game engine, we are able to create a working game with the short delay we have.s
 
 ## 8. Testing and Debugging
 
@@ -131,7 +131,7 @@ We chose Unreal Engine 4 because it is a very powerful game engine. It is very e
 
 The game will be tested by our QA. The QA will test the game and report bugs. The QA will also test the game's performance and report any performance issues.
 
-## 9. Deployment Platforms
+## 9. Deployment Distribution Services
 
 <!-- Specifications for deployment platforms such as Steam, Google Play, Apple Store, etc. -->
 
@@ -141,7 +141,7 @@ At the moment, we are not sure about the deployment platform we will use. We wil
 
 | **Name** | **Abrevation** | **Definition** |
 |:--------:|:--------------:|:--------------:|
-| Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of ability or attack that affects multiple targets within a specific area, rather than a single target. |
+| Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
