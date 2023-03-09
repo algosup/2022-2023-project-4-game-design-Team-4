@@ -95,7 +95,7 @@ For the moment, we are not sure about the minimum and recommended system require
 
 - **Tower Types**: We will have 5 tower types: a basic tower, a slow tower, a splash tower (AOE), a burst tower and an income tower.
 - **Enemy Types**: We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. There will be different versions of each enemy type. For example, the fast enemy will have a version that is faster than the other versions of the fast enemy, or another version that can be invisible for a short period of time. There is also a boss enemy, which is a combination of the enemy types: fast and tanky.
-- **Level Type**: Currently, we are thinking about having 2 levels: a tutorial level and the game in a bank universe.
+- **Stages Types**: Currently, we are thinking about having 2 stages: a tutorial level and the game in a bank universe.
 - **Win/Lose Conditions**: The player will win if he manages to kill all the enemies. The player will lose if he loses all his gold.
 - **Rewards**: The player will get rewards at the end of each level. The rewards will be gold, experience points, and some bonuses.
 - **Upgrades**: The player will be able to upgrade his towers. The upgrades will be: damage, range, attack speed, slow and AOE efficiency, income effect, etc.
