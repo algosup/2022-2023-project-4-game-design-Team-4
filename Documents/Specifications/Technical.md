@@ -135,12 +135,13 @@ The game will be tested by our QA. The QA will test the game and report bugs. Th
 
 <!-- Specifications for deployment platforms such as Steam, Google Play, Apple Store, etc. -->
 
-At the moment, we are not sure about the deployment platform we will use. We will decide later. We were thinking about using Steam but the cost to publish a game on Steam is quite high for us, and the delay to publish a game on Steam is also quite long.
+At the moment, we are not sure about the deployment distribution service we will use. We will decide later. We were thinking about using Steam but the cost to publish a game on Steam is quite high for us, and the delay to publish a game on Steam is also quite long.
 
 ## 10. Glossary
 
 | **Name** | **Abrevation** | **Definition** |
 |:--------:|:--------------:|:--------------:|
+| 2D isometric | 2D iso | [2D isometric](https://en.wikipedia.org/wiki/Isometric_graphics) is a 2D projection of a 3D scene onto a plane. |
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
