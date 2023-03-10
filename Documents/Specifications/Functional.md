@@ -197,18 +197,29 @@ As the waves are infinite, the game will never end. The player will have to play
 
 # 5. User Interface
 
-Here is a simple mock-up of what the game's interface will look like :
-
-![tower-defense](../Images/tower%20defense.jpg)
-<sub>Note : This mock-up is not final and is subject to change.</sub>
 
 ## A. Main menu
 
 ## B. In-game interface
 
+Here is a simple mock-up of what the game's interface will look like :
+
+![tower-defense](../Images/mockup-TD-v2.jpg)
+<sub><b>Note :</b> This mock-up is not final and is subject to change.</sub>
+
+The purple box represent the spawn point of the criminals and the grey one the bank vault.
 ## C. Heads-up display (HUD)
 
+As we saw in the mock-up, the HUD will be composed of 3 main parts :
+
+- The top section will display the current wave, the amount of money the player has, the prestige button and the settings button.
+
+
+- The bottom section will display the different categories of turrets and the different upgrades available for each turret when the player will click either on the arrow or on the pre-location.
+
 ## D. Settings and options
+
+
 
 
 ## E. Tutorial and Help
