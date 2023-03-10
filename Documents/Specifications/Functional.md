@@ -197,14 +197,23 @@ As the waves are infinite, the game will never end. The player will have to play
 
 # 5. User Interface
 
-
 ## A. Main menu
 
+![main-menu](../Images/Mockups/mockupMainMenu.png)
+<sub><b>Note :</b> This mock-up is not final and is subject to change.</sub
+
+The main menu will be composed of 3 main parts :
+
+- The play button will allow the player to start the game
+
+- The settings button will allow the player to access the settings menu with several options
+
+- The quit button will allow the player to quit the game
 ## B. In-game interface
 
 Here is a simple mock-up of what the game's interface will look like :
 
-![tower-defense](../Images/mockup-TD-v2.jpg)
+![tower-defense](../Images/Mockups/mockup-TD-v2.jpg)
 <sub><b>Note :</b> This mock-up is not final and is subject to change.</sub>
 
 The purple box represent the spawn point of the criminals and the grey one the bank vault.
@@ -219,8 +228,13 @@ As we saw in the mock-up, the HUD will be composed of 3 main parts :
 
 ## D. Settings and options
 
+![settings](../Images/Mockups/mockupSettingsMenu.png)
 
+For the moment, we plan to implement the volume control for the music and the sound effects.
 
+Furthermore others settings will be implemented and added in this document as soon as they are decided.
+
+A credits section will also be implemented to display the names of the different contributors to the project.
 
 ## E. Tutorial and Help
 
@@ -344,6 +358,7 @@ The main resources used for the development of the game are people's time, knowl
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
+| Head-Up Display | HUD | [Head-Up Display](https://en.wikipedia.org/wiki/Head-up_display) (HUD) is any transparent display that presents data without requiring users to look away from their usual viewpoints. |
 | Idle | Idle | [Idle](https://en.wikipedia.org/wiki/Incremental_game) also known as "inactive" games are video games that require little or no input from the player. The game typically continues to run and progress even when the player is not actively playing, allowing the player to accumulate resources and progress in the game over time.
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
