@@ -1,8 +1,5 @@
 # 2022-2023 Project4 - Game Design - Group 4
 
-
-
-
 ___
 
 <details>
@@ -23,6 +20,7 @@ ___
   - [C. Game Overview](#c-game-overview)
 - [3. Gameplay](#3-gameplay)
   - [A. Game Mechanics](#a-game-mechanics)
+    - [A.1. Core Gameplay Mechanics](#a1-core-gameplay-mechanics)
   - [B. Objective](#b-objective)
   - [C. Controls](#c-controls)
   - [D. The Turrets](#d-the-turrets)
@@ -60,6 +58,8 @@ ___
   - [A. Project milestones](#a-project-milestones)
   - [B. Development schedule](#b-development-schedule)
   - [C. Budget and Resources](#c-budget-and-resources)
+  - [C.1 Budget](#c1-budget)
+  - [C.2 Resources](#c2-resources)
 - [10. Glossary](#10-glossary)
 </details>
 
@@ -121,19 +121,29 @@ The purpose of the game is to defend a bank from waves of criminals. The player 
 - Porting to other platforms
 - Online features
 
-
 ## C. Game Overview
 
 The game takes place in a bank universe. 
 
 The player takes on the role of a bank manager who must defend the bank against several types of criminals who arrive in successive waves every 10 seconds.
 
-To do this, the player will have to build and upgrade turrets to stop the criminals from stealing the bank's money thanks to
+To defend the bank, the player must build and upgrade different types of turrets, each with unique abilities and strengths, to stop the criminals from stealing the bank's money (represented by hit points). The player must also manage their resources wisely, including the amount of money spent on building and upgrading turrets, to ensure they can withstand the increasing difficulty of each wave.
+
+Additionally, the game includes an idle aspect, allowing players to earn money even when they are not actively playing the game. This allows players to progress and upgrade their turrets even when they are away from the game, encouraging longer play sessions and a sense of continuous progress.
 
 # 3. Gameplay 
 
 ## A. Game Mechanics 
 
+### A.1. Core Gameplay Mechanics
+
+- <b>Building Turrets</b> : Players can build and upgrade different types of turrets to defend the bank from waves of criminals. Each turret type has its own strengths and weaknesses, and costs a different amount of in-game currency to build and upgrade.
+  
+- <b>Criminal Waves</b> : Criminals arrive in successive waves every 10 seconds, with each wave becoming progressively harder to defeat. The player must use their turrets strategically to defend the bank and prevent the criminals from stealing the bank's money.
+  
+- <b>In-Game Currency</b> : The player earns in-game currency by defeating criminals, which they can use to build and upgrade turrets. The amount of currency earned per defeated criminal depends on the type of criminal and the wave they appear in.
+  
+- <b>Bank Hit Points</b> : The bank has a set amount money (Hit Points) at the beginning of the game, and every time a criminal successfully steals money, the bank loses hit points. If the bank's hit points reach zero, the game is over.
 
 ## B. Objective
 
@@ -260,10 +270,15 @@ During a conversation with Chris, he told her about the game and she told him th
 
 ## A. Copyright
 
+All assets used in the game, including graphics, music, sound effects, and code, must be either original or properly licensed from their respective owners. The development team will be responsible for ensuring that all assets are properly credited and licensed.
+
 ## B. Intellectual property
+
+The game and its underlying code are the intellectual property of the development team. No unauthorized use or distribution of the game will be permitted.
 
 ## C. Liability and warranties
 
+The development team will make reasonable efforts to ensure that the game is free from defects and does not violate any laws or regulations. However, the team cannot guarantee that the game will be completely error-free or meet all requirements of every user. 
 
 # 9. Timeline and Budget
 
@@ -281,8 +296,31 @@ Here's the workshop game pipeline:
 Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Prototype → Demo and/or Vertical Slice → Testing & Iterating → Final Game
 ## B. Development schedule
 
+// TODO
+
 ## C. Budget and Resources
 
+## C.1 Budget 
+
+For this project, more precisely for the development of the game, there's no budget. We are using free assets and free tools.
+
+## C.2 Resources
+
+Currently, the development team is composed of 5 people. 
+
+- <b>The Project Manager</b>, who is responsible for the project's success and the team's productivity. He is also in charge of the project's budget and the team's schedule.
+
+- <b>The Software Engineer</b>, who is responsible for the game's code and the game's engine. He is also in charge of the game's performance and the game's stability.
+
+- <b>The Tech Lead</b>, who is responsible for the game's architecture and the game's design. He is also in charge of the game's scalability and the game's maintainability.
+
+- <b>The Program Manager</b>, who is responsible for the game's assets and the UI/UX. He is also in charge of the game's visual and the game's audio.
+
+- <b> The Quality Assurance</b>, who is responsible for the game's testing.
+
+These people have more or less knowledge in the game's creation.
+
+The main resources used for the development of the game are people's time, knowledge and skills.
 # 10. Glossary
 
 | **Name** | **Abrevation** | **Definition** |
@@ -290,6 +328,7 @@ Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Proto
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
+| Idle | Idle | [Idle](https://en.wikipedia.org/wiki/Incremental_game) also known as "inactive" games are video games that require little or no input from the player. The game typically continues to run and progress even when the player is not actively playing, allowing the player to accumulate resources and progress in the game over time.
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
 | Unreal Engine | UE | [Unreal Engine](https://www.unrealengine.com/en-US/) is a 3D computer graphics game engine developed by Epic Games. |
@@ -297,4 +336,4 @@ Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Proto
 
 *All the links in this document are clickable and redirect to the source of our glossary.*
 
-<sub>Created on 2023-02-28 by [Nicolas MIDA](https://www.linkedin.com/in/nicolas-mida/) </sub> 
+<sub>Created on 2023-02-28 and updated on 2023-03-10 by [Nicolas MIDA](https://www.linkedin.com/in/nicolas-mida/) </sub> 
