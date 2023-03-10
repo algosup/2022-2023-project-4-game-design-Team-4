@@ -1,8 +1,11 @@
 # Game Idea - Tower defense
 
 **Title:** Tower defense - Bank robbery
+
 **Platform:** PC Windows & MAC
+
 **Monetization:** One-time game purchase
+
 **Target group/age:** PEGI 12
 
 ## Game summary
