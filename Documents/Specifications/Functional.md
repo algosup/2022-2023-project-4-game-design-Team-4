@@ -197,6 +197,11 @@ As the waves are infinite, the game will never end. The player will have to play
 
 # 5. User Interface
 
+Here is a simple mock-up of what the game's interface will look like :
+
+![tower-defense](../Images/tower%20defense.jpg)
+<sub>Note : This mock-up is not final and is subject to change.</sub>
+
 ## A. Main menu
 
 ## B. In-game interface
