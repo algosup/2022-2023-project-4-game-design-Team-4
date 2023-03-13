@@ -111,9 +111,9 @@ Read the documentation
 
 ### 1.3.Condition for the test
 
-|Action|Expected result|
-|---|---|
-|Correct the grammar or vocabulary mistakes|The documentation is well written and understandable|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|1|Correct the grammar or vocabulary mistakes|The documentation is well written and understandable|Fail|
 
 ### 1.4.Steps for the documentation test
 
@@ -134,10 +134,10 @@ Create a little cookie clicker game
 
 ### 2.3.Conditions for the idle part of the game
 
-|Action|Expected result|
-|---|---|---|
-|Do nothing|The game continue to run and gain money|
-|Quit the game|The game continue to run and gain money|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|2|Do nothing|The game continue to run and gain money|Fail|
+|3|Quit the game|The game continue to run and gain money|Fail|
 
 ### 2.4.Steps for the idle part of the game
 
@@ -160,10 +160,9 @@ Put the camera into the scene.
 
 ### 3.3.Conditions for the camera test
 
-|Action|Expected result|
-|---|---|
-|Move the mouse wheel upwards|Zoom in|
-|Move the mouse wheel downwards|Zoom out|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|4|Nothing|Camera stay at is place|Pass|
 
 ### 3.4.Steps for the camera test
 
@@ -187,16 +186,16 @@ Create the path.
 
 ### 4.3.Conditions for the enemies test
 
-|Action|Expected result|
-|---|---|
-|Launch the wave|the enemies arrived|
-|When the enemies arrived they follow the path created|The enemies follow the path|
-|the enemies arrived with life|The enemies arrived with the correct life|
-|the enemies arrived with move speed|The enemies arrived with the correct move speed|
-|The turret attack the enemies|The enemies lose life|
-|When the enemies lose all their life|The enemies die|
-|When the enemies die|The enemies are not in the scene|
-|The enemies arrive at the base of the player|The enemies collect gold|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|5|Launch the wave|the enemies arrived|Fail|
+|6|When the enemies arrived they follow the path created|The enemies follow the path|Fail|
+|7|the enemies arrived with life|The enemies arrived with the correct life|Fail|
+|8|the enemies arrived with move speed|The enemies arrived with the correct move speed|Fail|
+|9|The turret attack the enemies|The enemies lose life|Fail|
+|10|When the enemies lose all their life|The enemies die|Fail|
+|11|When the enemies die|The enemies are not in the scene|Fail|
+|12|The enemies arrive at the base of the player|The enemies collect gold|Fail|
 
 ### 4.4.Steps for the enemies test
 
@@ -224,21 +223,21 @@ Create the different towers
 
 ### 5.3.Conditions for the tower test
 
-|Action|Expected result|
-|---|---|
-|Drag and drop on the correct zone to place the tower|Create the tower|
-|When the players have enough money|The tower is build|
-|When the players have not enough money|The tower is not build|
-|When the tower is build|The tower can be upgraded|
-|When the tower is upgraded|The tower can be upgraded again|
-|When the players click to sell the tower|The tower is sold|
-|When the tower is sold|The tower is not in the scene|
-|When the tower is sold|The players collect the money divided by 2 of the tower|
-|When the tower is sold|The tower can be build again|
-|When an enemies is in the range of a turret|Turret target the first enemy|
-|When an enemies is target|Turret turn to the enemy|
-|When an enemies is target|Turret shoot at the enemy|
-|When the turret shoot at the enemy|The enemy lose life|
+ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|13|Drag and drop on the correct zone to place the tower|Create the tower|Fail|
+|14|When the players have enough money|The tower is build|Fail|
+|15|When the players have not enough money|The tower is not build|Fail|
+|16|When the tower is build|The tower can be upgraded|Fail|
+|17|When the tower is upgraded|The tower can be upgraded again|Fail|
+|18|When the players click to sell the tower|The tower is sold|Fail|
+|19|When the tower is sold|The tower is not in the scene|Fail|
+|20|When the tower is sold|The players collect the money divided by 2 of the tower|Fail|
+|21|When the tower is sold|The tower can be build again|Fail|
+|22|When an enemies is in the range of a turret|Turret target the first enemy|Fail|
+|23|When an enemies is target|Turret turn to the enemy|Fail|
+|24|When an enemies is target|Turret shoot at the enemy|Fail|
+|25|When the turret shoot at the enemy|The enemy lose life|Fail|
 
 ### 5.4.Steps for the tower test
 
@@ -280,12 +279,12 @@ Create the different towers
 
 ### 6.3.Conditions for the money test
 
-|Action|Expected result|
-|---|---|
-|When the enemies is kill|The player collect money|
-|When the tower is sold|The player collect money|
-|When the tower is upgraded|The player lose money|
-|When the tower is build|The player lose money|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|26|When the enemies is kill|The player collect money|Fail|
+|27|When the tower is sold|The player collect money|Fail|
+|28|When the tower is upgraded|The player lose money|Fail|
+|29|When the tower is build|The player lose money|Fail|
 
 ### 6.4.Steps for the money test
 
@@ -310,12 +309,13 @@ Create the different enemies
 
 ### 7.3.Conditions for the achievement test
 
-|Action|Expected result|
-|---|---|
-|When the player reach a certain wave|The player unlock an achievement|
-|When the player reach a certain amount of money|The player unlock an achievement|
-|When the player unlock an achievement|The player can see the achievement in the achievement menu|
-|Create the different enemies|When the player reach kill a certain enemy|The player unlock an achievement|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|30|When the player reach a certain wave|The player unlock an achievement|Fail|
+|31|When the player reach a certain amount of money|The player unlock an achievement|Fail|
+|32|When the player unlock an achievement|The player can see the achievement in the achievement menu|Fail|
+|33|Create the different enemies|When the player reach kill a certain enemy|The player unlock an achievement|Fail|
+|34|When the make a certain prestige|The player unlock an achievement|Fail|
 
 ### 7.4.Steps for the achievement test
 
@@ -327,6 +327,7 @@ Create the different enemies
 6. Verify that the player unlocks an achievement when the player reaches a certain amount of money
 7. Verify that the player can see the achievement in the achievement menu when the player unlocks an achievement
 8. Verify that the player unlocks an achievement when the player reaches kill a certain enemy
+9. Verify that the player unlocks an achievement when the player makes a certain prestige
 
 ## 8.Player stat Test
 
@@ -340,15 +341,15 @@ Create the stat menu
 
 ### 8.3.Conditions for the player stat test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the stat menu|The player can see his stat|
-|When the player click on his stat|The player see the total of enemies kill|
-|When the player click on his stat|The player see the total of boss kill|
-|When the player click on his stat|The player see the total of money collect|
-|When the player click on his stat|The player see the total of special enemies kill|
-|When the player click on his stat|The player see the total of wave reach|
-|When the player click on his stat|The player see the maximum of wave reach|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|35|When the player click on the stat menu|The player can see his stat|Fail|
+|36|When the player click on his stat|The player see the total of enemies kill|Fail|
+|37|When the player click on his stat|The player see the total of boss kill|Fail|
+|38|When the player click on his stat|The player see the total of money collect|Fail|
+|39|When the player click on his stat|The player see the total of special enemies kill|Fail|
+|40|When the player click on his stat|The player see the total of wave reach|Fail|
+|41|When the player click on his stat|The player see the maximum of wave reach|Fail|
 
 ### 8.4.Steps for the player stat test
 
@@ -375,11 +376,11 @@ Create the bestiary menu
 
 ### 9.3.Conditions for the bestiary test
 
-|Pre-conditions|Action|Expected result|
-|---|---|---|
-|------------|When the player click on the bestiary menu|The player can see the different enemies encounter|
-|------------|When the player click on the bestiary menu|The player can see the different boss encounter|
-|------------|When the player click on the bestiary menu|The player can see the different special enemies encounter|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|42|When the player click on the bestiary menu|The player can see the different enemies encounter|Fail|
+|43|When the player click on the bestiary menu|The player can see the different boss encounter|Fail|
+|44|When the player click on the bestiary menu|The player can see the different special enemies encounter|Fail|
 
 ### 9.4.Steps for the bestiary test
 
@@ -403,10 +404,10 @@ Create the settings
 
 ### 10.3.Conditions for the settings test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the settings menu|The player can change the volume of the game|
-|When the player click on the settings menu|The player can change the resolution of the game|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|
+|45|When the player click on the settings menu|The player can change the volume of the game|Fail|
+|46|When the player click on the settings menu|The player can change the resolution of the game|Fail|
 
 ### 10.4.Steps for the settings test
 
@@ -426,9 +427,9 @@ Create the pause part.
 
 ### 11.3.Conditions for the pause test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the pause button|The game is paused|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|47|When the player click on the pause button|The game is paused|Fail|
 
 ### 11.4.Steps for the pause test
 
@@ -447,10 +448,10 @@ Create the main menu.
 
 ### 12.3.Conditions for the main menu test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the play button|The player can access to the game|
-|When the player click on the settings button|The player can access to the settings menu|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|48|When the player click on the play button|The player can access to the game|Fail|
+|49|When the player click on the settings button|The player can access to the settings menu|Fail|
 
 ### 12.4.Steps for the main menu test
 
@@ -470,10 +471,10 @@ Create the tutorial.
 
 ### 13.3.Conditions for the tutorial test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the start is first game|The player directly access to the tutorial|
-|When the player haver already a game save|The player can't access to the tutorial|
+|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|50|When the player click on the start is first game|The player directly access to the tutorial|Fail|
+|51|When the player haver already a game save|The player can't access to the tutorial|Fail|
 
 ### 13.4.Steps for the tutorial test
 
@@ -494,12 +495,12 @@ Create tower and enemies.
 
 ### 14.3.Conditions for the audio test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the play button|The player can hear the sound of the game|
-|When a wave arrived|The player can hear the sound of a bank alarm|
-|When the player click on the pause button|The sound of the game stop|
-|When the player click on the resume button|The sound of the game resume|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|52|When the player click on the play button|The player can hear the sound of the game|Fail|
+|53|When a wave arrived|The player can hear the sound of a bank alarm|Fail|
+|54|When the player click on the pause button|The sound of the game stop|Fail|
+|55|When the player click on the resume button|The sound of the game resume|Fail|
 
 ### 14.4.Steps for the audio test
 
@@ -524,10 +525,10 @@ Create a different path in the scene
 
 ### 15.3.Conditions for the performance test
 
-|Action|Expected result|
-|---|---|
-|When the player launch the game|The game is playable on a computer with low specifications|
-|Memory usage of the game|The game doesn't crash because of the memory usage|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|56|When the player launch the game|The game is playable on a computer with low specifications|Fail|
+|57|Memory usage of the game|The game doesn't crash because of the memory usage|Fail|
 
 ### 15.4.Steps for the performance test
 
@@ -549,10 +550,10 @@ Player arrived at certain wave to prestige
 
 ### 16.3.Conditions for the prestige test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the prestige button|The player can prestige|
-|When the player click on the prestige button|The player can see the different rewards of the prestige|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|58|When the player click on the prestige button|The player can prestige|
+|59|When the player click on the prestige button|The player can see the different rewards of the prestige|
 
 ### 16.4.Steps for the prestige test
 
@@ -575,15 +576,15 @@ Player have to have prestige points to upgrade a skill in the tree of skills
 
 ### 17.3.Conditions for the tree of skills test
 
-|Action|Expected result|
-|---|---|
-|When the player click on the tree of skills button|The player can access the tree of skills|
-|When the player click on the tree of skills button|The player can see the different skills of the tree of skills|
-|When the player click on the tree of skills button|The player can see the current level of the tree of skills and the level after|
-|When the player click on the tree of skills button|The player can see the different costs of the tree of skills|
-|When the player click on the skills into the tree of skills|The player can see the different descriptions of the tree of skills|
-|If the player have enough prestige points|The player can upgrade a skill in the tree of skills|
-|If the player haven't enough prestige points|The player can't upgrade a skill in the tree of skills|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|60|When the player click on the tree of skills button|The player can access the tree of skills|Fail|
+|61|When the player click on the tree of skills button|The player can see the different skills of the tree of skills|Fail|
+|62|When the player click on the tree of skills button|The player can see the current level of the tree of skills and the level after|Fail|
+|63|When the player click on the tree of skills button|The player can see the different costs of the tree of skills|Fail|
+|64|When the player click on the skills into the tree of skills|The player can see the different descriptions of the tree of skills|Fail|
+|65|If the player have enough prestige points|The player can upgrade a skill in the tree of skills|Fail|
+|66|If the player haven't enough prestige points|The player can't upgrade a skill in the tree of skills|Fail|
 
 ### 17.4.Steps for the tree of skills test
 
@@ -610,10 +611,10 @@ Lose all your health points
 
 ### 18.3.Conditions for the end-game test
 
-|Action|Expected result|
-|---|---|
-|When the player reach lose game|The player cannot access to the end game menu|
-|When the lose the game|The game re-launch at the previous wave|
+|ID|Action|Expected result|Pass/Fail|
+|---|---|---|---|
+|67|When the player reach lose game|The player cannot access to the end game menu|Fail|
+|68|When the lose the game|The game re-launch at the previous wave|Fail|
 
 ### 18.4.Steps for the end-game test
 
