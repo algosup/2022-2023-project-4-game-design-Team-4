@@ -114,12 +114,12 @@
 
 ## Deliverables KPIs
 
-| Deliverables       | To target   | Current         | Next week's objective |
-|--------------------|-------------|-----------------|-----------------------|
-| Game idea document | 100%        | 100%            | /                     |
-| Prototype          | Implemented | Implemented     | /                     |
-| Prototype survey   | 100%        | 100%            | /                     |
-| Vertical slice     | Implemented | Not implemented | Implemented           |
+| Deliverables       | To target   | Current             | Next week's objective             |
+|--------------------|-------------|---------------------|-----------------------------------|
+| Game idea document | 100%        | 100%                | /                                 |
+| Prototype          | Implemented | Implemented         | /                                 |
+| Prototype survey   | 100%        | 100%                | /                                 |
+| Vertical slice     | Implemented | Nothing implemented | Design part Implemented           |
 
 - **Game idea document:**
   - 0%: nothing
@@ -139,7 +139,7 @@
   - 100%: Pushed on Github
 
 - **Vertical slice:**
-  - implemented and push on github
+  - All the design part will be implemented and push on Github
 
 ## Testing KPIs
 
