@@ -53,7 +53,7 @@ Based on our analysis we have planned to add the following features:
 - IDLE game
 - Skill tree
 - Achievements
-<!-- - "bestiaire" -->
+- Bestiary
 - Our own Prestige system
 - Compatibility between MAC and Windows
 - UX/UI interface and tutorial
@@ -61,7 +61,7 @@ Based on our analysis we have planned to add the following features:
 
 ### The control
 
-We explain our game with all the points said before and it was validated, we also exchange with some players of tower defense and they was interesting in our game and these new features.
+We explain our game with all the points said before and it was validated by Konstantinos Dimopoulos, we also exchange with some players of tower defense and they was interesting in our game and these new features.
 
 We will still have to test its features once they are implemented in our game.
 
