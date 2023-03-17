@@ -30,6 +30,9 @@ Other team members:
 			- [Slow Tower - The Bitcoin Launcher](#slow-tower---the-bitcoin-launcher)
 			- [Splash Tower - The Potato Gun](#splash-tower---the-potato-gun)
 		- [6.2. Enemy Types](#62-enemy-types)
+			- [Basic Enemy - The Thief](#basic-enemy---the-thief)
+			- [Fast Enemy - The Slayer](#fast-enemy---the-slayer)
+			- [Tank Enemy - The Warrior](#tank-enemy---the-warrior)
 		- [6.3. Stages Types](#63-stages-types)
 		- [6.4. Win/Lose Conditions](#64-winlose-conditions)
 		- [6.5. Rewards](#65-rewards)
@@ -130,7 +133,28 @@ All the statitics(*in italic*) of the towers given below are not final. They are
 
 ### 6.2. Enemy Types
 
-We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. There will be different versions of each enemy type. For example, the fast enemy will have a version that is faster than the other versions of the fast enemy, or another version that can be invisible for a short period of time. There is also a boss enemy, which is a combination of the enemy types: fast and tanky.
+We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All the statitics(*in italic*) of the enemies given below are not final. They are just here to give you an idea of what we are thinking about. The images are not the representation of the final enemies, just an inspiration from Team Fortress 2 and Assassin's Creed.
+
+#### Basic Enemy - The Thief
+
+- **Description**: The basic enemy is the most basic enemy in the game. There is nothing special about him.
+- **Attack Type**: The thief has *125 health points* and he deals *1 damage* if he reaches the vault. He moves 1 tile per second.
+
+![An inspiration for the thief](https://wiki.teamfortress.com/w/images/thumb/6/69/Scout.png/375px-Scout.png)
+
+#### Fast Enemy - The Slayer
+
+- **Description**: The fast enemy is the fastest enemy in the game. He is very fast and he can be hard to kill.
+- **Attack Type**: The slayer has *75 health points* and he deals *2 damage* if he reaches the vault. He is the fastest enemy in the game, he can move 2 tiles per second.
+
+![An inspiration for the slayer](https://static.wikia.nocookie.net/assassinscreed/images/e/e8/Ezio-full.png/revision/latest?cb=20221211122412&path-prefix=fr)
+
+#### Tank Enemy - The Warrior
+
+- **Description**: The tank enemy is the tankiest enemy in the game. He is very hard to kill, but, he is also very slow to equilibrate the game.
+- **Attack Type**: The warrior has *250 health points* and he deals *3 damage* if he reaches the vault. He is the slowest enemy in the game, he can move 0.5 tiles per second.
+
+![An inspiration for the warrior](https://wiki.teamfortress.com/w/images/thumb/a/a0/Community_Heavy_Strategy_Header.png/300px-Community_Heavy_Strategy_Header.png)
 
 ### 6.3. Stages Types
 
