@@ -82,9 +82,9 @@ For the moment, we are not sure about the minimum and recommended system require
 
 <!-- Specifications for character models, environments, textures, lighting, special effects, and other graphical elements, such as resolution, level of detail, shaders, etc. -->
 
-- **Character Models**: We will use character models for the game's enemies, the game's towers, the game's upgrades, etc.
-- **Interface**: We will use interface for the game's menus, the game's UI, the game's levels, the game's win/lose conditions, the game's rewards, etc.
-- **Particles**: We will use particles for the game's projectiles, the game's explosions, the game's bonuses, the game's ennemies (for example, the invisible version of the fast enemy), etc.
+- **Character Models**: We will use character models for the game's enemies and the game's towers.
+- **Interface**: We will use interface for the game's menus, the game's UI, the game's levels, the game's win/lose conditions, the game's rewards.
+- **Particles**: We will use particles for the game's projectiles, the game's explosions, the game's upgrades.
 
 ## 4. User Interface
 
@@ -146,6 +146,7 @@ We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All th
 
 - **Description**: The basic enemy is the most basic enemy in the game. There is nothing special about him.
 - **Attack Type**: The thief has *300 health points* and he deals *1 damage* if he reaches the vault. He moves 1 tile per second.
+- **Rewards**: The thief drops *10 dollars* when he dies.
 
 ![An inspiration for the thief](https://wiki.teamfortress.com/w/images/thumb/6/69/Scout.png/375px-Scout.png)
 
@@ -153,6 +154,7 @@ We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All th
 
 - **Description**: The fast enemy is the fastest enemy in the game. He is very fast and he can be hard to kill.
 - **Attack Type**: The slayer has *100 health points* and he deals *2 damage* if he reaches the vault. He is the fastest enemy in the game, he can move 2 tiles per second.
+- **Rewards**: The slayer drops *5 dollars* when he dies.
 
 ![An inspiration for the slayer](https://static.wikia.nocookie.net/assassinscreed/images/e/e8/Ezio-full.png/revision/latest?cb=20221211122412&path-prefix=fr)
 
@@ -160,6 +162,7 @@ We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All th
 
 - **Description**: The tank enemy is the tankiest enemy in the game. He is very hard to kill, but, he is also very slow to equilibrate the game.
 - **Attack Type**: The warrior has *500 health points* and he deals *3 damage* if he reaches the vault. He is the slowest enemy in the game, he can move 0.5 tiles per second.
+- **Rewards**: The warrior drops *20 dollars* when he dies.
 
 ![An inspiration for the warrior](https://wiki.teamfortress.com/w/images/thumb/a/a0/Community_Heavy_Strategy_Header.png/300px-Community_Heavy_Strategy_Header.png)
 
@@ -173,15 +176,15 @@ Currently, we are thinking about having 2 stages: a tutorial level and the game 
 
 ### 6.4. Win/Lose Conditions
 
-The player will win if he manages to kill all the enemies. The player will lose if he loses all his gold.
+The player will win if he manages to kill all the enemies for every wave. The player will lose an enemy reaches the vault.
 
 ### 6.5. Rewards
 
-The player will get rewards at the end of each level. The rewards will be gold, experience points, and some bonuses.
+The player will earn golds by killing enemies. The golds will be used to buy towers and upgrades turrets. You can also earn golds by selling towers(the player will get 50% of the initial cost of the tower).
 
 ### 6.6. Upgrades
 
-The player will be able to upgrade his towers. The upgrades will be: damage, range, attack speed, slow and AOE efficiency, income effect, etc.
+The player will be able to upgrade his towers. The upgrades will be: damage, range, attack speed, slow and AOE efficiency, etc.
 
 ## 7. Programming
 
@@ -218,7 +221,7 @@ The game will be tested by our QA. The QA will test the game and report bugs. Th
 
 <!-- Specifications for deployment platforms such as Steam, Google Play, Apple Store, etc. -->
 
-At the moment, we are not sure about the deployment distribution service we will use. We will decide later. We were thinking about using Steam but the cost to publish a game on Steam is quite high for us, and the delay to publish a game on Steam is also quite long.
+We will not deploy the game on any platform. The game will only be available on the GitHub repository. But, at the start of the project, we planned to deploy the game on Steam, but, we decided to not deploy the game on Steam because we don't have enough time and money to do it.
 
 ## 10. Glossary
 
@@ -228,6 +231,7 @@ At the moment, we are not sure about the deployment distribution service we will
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
+| Damage | DMG | [Damage](https://en.wikipedia.org/wiki/Damage_(video_gaming)) is a measure of how much health a character loses when they are attacked. |
 | Health Points | HP | [Health Points](https://en.wikipedia.org/wiki/Health_point) are a measure of how much damage a character can take before being defeated. |
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
