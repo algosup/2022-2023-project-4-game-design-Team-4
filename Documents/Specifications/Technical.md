@@ -33,6 +33,7 @@ Other team members:
 			- [Basic Enemy - The Thief](#basic-enemy---the-thief)
 			- [Fast Enemy - The Slayer](#fast-enemy---the-slayer)
 			- [Tank Enemy - The Warrior](#tank-enemy---the-warrior)
+			- [Note](#note)
 		- [6.3. Stages Types](#63-stages-types)
 		- [6.4. Win/Lose Conditions](#64-winlose-conditions)
 		- [6.5. Rewards](#65-rewards)
@@ -113,21 +114,27 @@ All the statitics(*in italic*) of the towers given below are not final. They are
 #### Basic Tower - The Gunner
 
 - **Description**: The basic tower is a tower that shoots dollars at the enemies. It is the most basic tower in the game.
+- **Cost**: The basic tower costs 60 dollars.
 - **Attack Type**: The basic tower shoots projectiles at the enemies. The projectiles are the most basic projectiles in the game, they deal damage to the enemies (*20 damage per projectile*) but the turret is the fastest turret in the game (*1 projectile per second*).
+- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *80* dollars and the second upgrade costs *130* dollars. We don't know exactly a good balance for the upgrades yet.
 
 ![The first design of the basic tower.](./../Images/Turrets/Gunner.png)
 
 #### Slow Tower - The Bitcoin Launcher
 
 - **Description**: The slow tower is a tower that shoots bitcoin at the enemies.
+- **Cost**: The slow tower costs 180 dollars.
 - **Attack Type**: The slow tower shoots projectiles at the enemies. The projectiles are the slowest projectiles in the game, they deal damage to the enemies (*15 damage per projectile*) and they slow the enemies (*20% slow for 2 seconds*). The turret get a medium speed (*1 projectile every 1.5 seconds*).
+- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *200* dollars and the second upgrade costs *250* dollars. We don't know exactly a good balance for the upgrades yet.
 
 ![The first design of the slow tower.](./../Images/Turrets/Bitcoin_Launcher.png)
 
 #### Splash Tower - The Potato Gun
 
 - **Description**: The splash tower is a tower that throws gold ingots at the enemies. The gold ingots explode when they hit an enemy.
+- **Cost**: The splash tower costs 120 dollars.
 - **Attack Type**: The splash tower is the one with the most damage in the game. The projectiles are the most powerful projectiles in the game, they deal damage to the enemies in a radius of 2X2 tiles (25 damage per projectile). To balance the tower, the turret is the slowest turret in the game (*1 projectile every 2 seconds*).
+- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *160* dollars and the second upgrade costs *210* dollars. We don't know exactly a good balance for the upgrades yet.
 
 ![The first design of the splash tower.](./../Images/Turrets/Potato_Gun.png)
 
@@ -138,23 +145,27 @@ We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All th
 #### Basic Enemy - The Thief
 
 - **Description**: The basic enemy is the most basic enemy in the game. There is nothing special about him.
-- **Attack Type**: The thief has *125 health points* and he deals *1 damage* if he reaches the vault. He moves 1 tile per second.
+- **Attack Type**: The thief has *300 health points* and he deals *1 damage* if he reaches the vault. He moves 1 tile per second.
 
 ![An inspiration for the thief](https://wiki.teamfortress.com/w/images/thumb/6/69/Scout.png/375px-Scout.png)
 
 #### Fast Enemy - The Slayer
 
 - **Description**: The fast enemy is the fastest enemy in the game. He is very fast and he can be hard to kill.
-- **Attack Type**: The slayer has *75 health points* and he deals *2 damage* if he reaches the vault. He is the fastest enemy in the game, he can move 2 tiles per second.
+- **Attack Type**: The slayer has *100 health points* and he deals *2 damage* if he reaches the vault. He is the fastest enemy in the game, he can move 2 tiles per second.
 
 ![An inspiration for the slayer](https://static.wikia.nocookie.net/assassinscreed/images/e/e8/Ezio-full.png/revision/latest?cb=20221211122412&path-prefix=fr)
 
 #### Tank Enemy - The Warrior
 
 - **Description**: The tank enemy is the tankiest enemy in the game. He is very hard to kill, but, he is also very slow to equilibrate the game.
-- **Attack Type**: The warrior has *250 health points* and he deals *3 damage* if he reaches the vault. He is the slowest enemy in the game, he can move 0.5 tiles per second.
+- **Attack Type**: The warrior has *500 health points* and he deals *3 damage* if he reaches the vault. He is the slowest enemy in the game, he can move 0.5 tiles per second.
 
 ![An inspiration for the warrior](https://wiki.teamfortress.com/w/images/thumb/a/a0/Community_Heavy_Strategy_Header.png/300px-Community_Heavy_Strategy_Header.png)
+
+#### Note
+
+After each wave, the enneemies will get stronger. Their HP will increase by 20%.
 
 ### 6.3. Stages Types
 
@@ -217,6 +228,7 @@ At the moment, we are not sure about the deployment distribution service we will
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
+| Health Points | HP | [Health Points](https://en.wikipedia.org/wiki/Health_point) are a measure of how much damage a character can take before being defeated. |
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
 | Unreal Engine | UE | [Unreal Engine](https://www.unrealengine.com/en-US/) is a 3D computer graphics game engine developed by Epic Games. |
