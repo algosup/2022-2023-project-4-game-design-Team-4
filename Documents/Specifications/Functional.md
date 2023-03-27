@@ -38,6 +38,8 @@ ___
   - [B. In-game interface](#b-in-game-interface)
   - [C. Heads-up display (HUD)](#c-heads-up-display-hud)
   - [D. Settings and options](#d-settings-and-options)
+    - [D.1. Mock-up](#d1-mock-up)
+    - [D.2. Settings](#d2-settings)
   - [E. Tutorial and Help](#e-tutorial-and-help)
 - [6. Audio and Visuals](#6-audio-and-visuals)
   - [A. Graphics](#a-graphics)
@@ -174,7 +176,7 @@ Every 10 seconds, a new wave of criminals will arrive. As more waves are complet
   - More criminals will arrive
   - The criminals will be stronger, faster and more resistant
 
-If the player fails to stop the criminals, they will return to the previous wave. A button allows the player to choose whether to stay on this wave or to keep going. 
+If the player fails to stop the criminals, he will return to the previous wave. A button will allows the player to choose whether to stay on this wave or to keep going. 
 
 ## G. Player Progression (Prestige System)
 
@@ -185,11 +187,42 @@ At a certain point, the player will encounter difficulties in defending the bank
 
 ## A. Background story
 
+> <cite>Vaultburg, 2048 <cite>
+> 
+>Following the financial shock of 2047, many people have started attacking banks in order to steal the few resources still stored to survive. However, the banks don't take this lying down and decide to arm themselves. They also call on you, a ship owner, to improve their defense. Use your knowledge to transform a bank into a fortress designed to withstand all external assaults!
+
 ## B. Characters
+
+There's three main characters in the game :
+
+The **Banker** (aka **Mr. Wertheimer**), who's the owner of the bank and the one who called you to help him defend the bank.
+
+**Giovanni Machiavelli**, the main villain of the game. He is the leader of the criminal organization and is responsible for the attacks on the bank.
+
+**You**, the protagonist of the game have been called by the Banker to help him defend the bank against the criminals.
 
 ## C. Dialogue and narrative
 
+```
+Banker: 
+    Hey, are you the guy we're waiting for? Not a moment too soon, time is money! So listen, we've already beaten back a wave of scouts but it's getting tense...
+
+*phone*
+
+Banker:
+    Hello?
+
+?:
+    Hello Mr. Wertheimer, my name is Giovanni Machiavelli and I wanted to tell you that your actions towards members of my clan have disappointed me. I would like to inform you that we are going to receive some compensation, we will be there in 5 minutes, see you soon!
+
+Banker:
+    This doesn't look good, quickly, you have to help us, get ready for the bank's defense!
+
+**Launch of the tutorial**
+```
 ## D. Plot and story progression
+
+we did not plan to develop our story during the game, we only wanted to give a background story to the game.
 
 ## E. Ending
 
@@ -202,13 +235,15 @@ As the waves are infinite, the game will never end. The player will have to play
 ![main-menu](../Images/Mockups/mockupMainMenu.png)
 <sub><b>Note :</b> This mock-up is not final and is subject to change.</sub
 
-The main menu will be composed of 3 main parts :
+The main menu will be composed of four main parts :
 
-- The play button will allow the player to start the game
+- The **Play button** will allow the player to start the game
 
-- The settings button will allow the player to access the settings menu with several options
+- The **Settings button** were the player can change the game's settings
 
-- The quit button will allow the player to quit the game
+- The **Credits button** will allow the player to see the credits
+
+- The **Quit button** will allow the player to quit the game
 ## B. In-game interface
 
 Here is a simple mock-up of what the game's interface will look like :
@@ -219,7 +254,7 @@ Here is a simple mock-up of what the game's interface will look like :
 The purple box represent the spawn point of the criminals and the grey one the bank vault.
 ## C. Heads-up display (HUD)
 
-As we saw in the mock-up, the HUD will be composed of 3 main parts :
+As we saw in the mock-up, the HUD will be composed of three main parts :
 
 - The top section will display the current wave, the amount of money the player has, the prestige button and the settings button.
 
@@ -228,13 +263,37 @@ As we saw in the mock-up, the HUD will be composed of 3 main parts :
 
 ## D. Settings and options
 
+### D.1. Mock-up
 ![settings](../Images/Mockups/mockupSettingsMenu.png)
+<sub><b>Note :</b> This mock-up is not final and is subject to change.</sub>
 
 For the moment, we plan to implement the volume control for the music and the sound effects.
 
 Furthermore others settings will be implemented and added in this document as soon as they are decided.
 
 A credits section will also be implemented to display the names of the different contributors to the project.
+
+### D.2. Settings
+
+<!-- Insert here a screenshot of the settings menu -->
+
+Inside the settings menu, the player will access the following settings :
+
+- **Audio** : The player will be able to change the volume of the music and the sound effects
+
+- **Graphics** : The player will be able to change the aspect of the game such as :
+    - The resolution
+    - The quality of the textures
+    - The quality of the shadows
+    - Post-processing effects
+    - Anti-aliasing
+    - The Display Mode (Fullscreen or Windowed)
+    - The Frame Rate 
+
+- **Commands** : The player will be able to see the different commands of the game thanks to a schematic representation of the mouse
+
+
+
 
 ## E. Tutorial and Help
 
@@ -248,9 +307,12 @@ In the settings menu, the player will be able to access the tutorial at any time
 
 ## B. Art Style
 
+For the art style, we will use a cartoon style inspired by the multiplayer FPS game "Team Fortress 2".
 ## C. Animation
 
 ## D. Sound effects
+
+Several sound effects will be implemented in the game
 
 ## E. Music
 
@@ -355,11 +417,13 @@ The main resources used for the development of the game are people's time, knowl
 
 | **Name** | **Abrevation** | **Definition** |
 |:--------:|:--------------:|:--------------:|
+| Anti-Aliasing | AA | [Anti-Aliasing](https://en.wikipedia.org/wiki/Anti-aliasing) is a method of smoothing out the jagged edges of a 3D object. |
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
 | Head-Up Display | HUD | [Head-Up Display](https://en.wikipedia.org/wiki/Head-up_display) (HUD) is any transparent display that presents data without requiring users to look away from their usual viewpoints. |
 | Idle | Idle | [Idle](https://en.wikipedia.org/wiki/Incremental_game) also known as "inactive" games are video games that require little or no input from the player. The game typically continues to run and progress even when the player is not actively playing, allowing the player to accumulate resources and progress in the game over time.
+| Post-processing | PP | [Post-processing](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/index.html) is a technique used in computer graphics to improve the appearance of a rendered image. |
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
 | Unreal Engine | UE | [Unreal Engine](https://www.unrealengine.com/en-US/) is a 3D computer graphics game engine developed by Epic Games. |
