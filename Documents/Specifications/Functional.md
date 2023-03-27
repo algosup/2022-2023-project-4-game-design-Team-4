@@ -115,6 +115,7 @@ The purpose of the game is to defend a bank from waves of criminals. The player 
 - The game will be a Tower Defense / Idle game
 - Single-player
 - PC only
+- English only
 
 
 ### B.2. Out of scope
@@ -122,6 +123,8 @@ The purpose of the game is to defend a bank from waves of criminals. The player 
 - Multiplayer
 - Porting to other platforms
 - Online features
+- Other languages
+- Other game modes
 
 ## C. Game Overview
 
@@ -165,9 +168,27 @@ Here the list of the different shortcuts :
 
 ## D. The Turrets 
 
+Currently there are 3 types of turrets :
+
+- The **Gunner**, which shoots at the closest criminal in range and has a high rate of fire (1 bullet per second) and do 20 damage per bullet. It cost 60 golds to build.
+
+- The **Missile Launcher**, which shoots gold bars in a bell-shaped pattern and can hit multiple criminals at once by a 2x2 area. It has a medium rate of fire (1 bullet every 2 seconds) and do 25 damage per bullet. It cost 120 golds to build.
+
+- The **Bitcoin Launcher**, is a slow turret doing 15 damage per bullet. It has a medium-high rate of fire (1 bullet every 1.5 seconds). If a criminal is hit by a bullet, it will be slowed down by 20 % for 2-3 seconds. It cost 180 golds to build.
+
+For the moment the turrets got three levels of upgrade 
 
 ## E. The Opponents
 
+Several types of criminals will attack the bank. Each type of criminal has its own strengths and weaknesses, and will appear in different waves.
+
+They are inspired by Team Fortress 2 characters.
+
+| Criminal | Description | Hit Points | Speed | Damage | Reward (gold) |
+| -------- | ----------- | ---------- | ----- | ------ | ------ |
+| **Thief** | A small criminal who can steal money from the bank. He is the weakest criminal and the first to appear. | 300 | Medium | Low | 10 golds |
+| **Slayer** | A medium-sized criminal with less health than the thief but more damage. | 100 | High | High | 5 golds |
+| **Warrior** | A large criminal that could be compared to a tank. He has a lot of health but is slow. However he can do a lot of damage. | 500 | Low | High | 20 golds |
 
 ## F. Wave System
 
@@ -222,7 +243,7 @@ Banker:
 ```
 ## D. Plot and story progression
 
-we did not plan to develop our story during the game, we only wanted to give a background story to the game.
+We did not plan to develop our story during the game, we only wanted to give a background story to the game.
 
 ## E. Ending
 
@@ -293,8 +314,6 @@ Inside the settings menu, the player will access the following settings :
 - **Commands** : The player will be able to see the different commands of the game thanks to a schematic representation of the mouse
 
 
-
-
 ## E. Tutorial and Help
 
 A tutorial will be implemented to explain the game's universe and the game's mechanics. It will guide the player through the first wave however the player will be able to skip it if he wants to.
@@ -302,20 +321,39 @@ A tutorial will be implemented to explain the game's universe and the game's mec
 In the settings menu, the player will be able to access the tutorial at any time with also some tips and tricks.
 
 # 6. Audio and Visuals
-
 ## A. Graphics
 
+The game will feature 3D graphics with a cartoonish art style inspired by "Team Fortress 2" with a 2D isometric view.
+
+The game will support a range of different resolutions and display modes, including full-screen and windowed modes. The graphics settings will allow players to adjust the quality of textures, shadows, and other visual effects to optimize performance on their system.
 ## B. Art Style
 
 For the art style, we will use a cartoon style inspired by the multiplayer FPS game "Team Fortress 2".
 ## C. Animation
 
+The game will feature smooth and fluid animations for all characters and objects in the game world. The player's turrets will rotate and track enemies as they move, and will fire projectiles with realistic physics and impact effects.
+
+For the enemy characters, they will move with a range of different animations, depending on their type. 
+
+The game will also feature a range of different visual effects, such as explosions, smoke, and particle effects, to enhance the overall look and feel of the game.
 ## D. Sound effects
 
-Several sound effects will be implemented in the game
+The game will feature a range of different sound effects to enhance the player's immersion in the game world. These sound effects will include:
+
+- Gunfire and explosions for the player's turrets and enemy attacks
+- Sound effects for the player's interactions with the game world, such as placing turrets and upgrading them
+- Ambient sound effects to create a sense of atmosphere and immersion
+
+The sound effects will be designed to be realistic and immersive, without being overly loud or distracting. The player will have the option to adjust the volume of the sound effects in the game's settings menu.
+
+
+There's will be no voice acting in the game as it will takes too much time to implement.
 
 ## E. Music
 
+Same as the sound effects, a music will be implemented in the game 
+
+We plan to use at least two different musics in the game, one for the main menu and one for the game itself. It will enhance the player's immersion in the game world without being too distracting or loud.However it could be muted by the player in the settings menu.
 # 7. Personas
 
 ## A. The Gamer : Ethan
@@ -324,7 +362,13 @@ Several sound effects will be implemented in the game
   <img src="./../Images/Personas/jeune1.jpeg" width="128">
 </div>
 
-Ethan is a 15 year old French student who loves playing all kinds of video games. He is currently studying in a high school, specifically in the computer science branch. He often visits the Steam shop to find new games because he is often bored with his games. Recently, he saw the release of our new game 
+Ethan is a 15-year-old French student who loves playing all kinds of video games. He spends most of his free time playing games on his computer and enjoys games that challenge his problem-solving skills.
+
+He's a tech-savvy individual who is comfortable using a variety of software and hardware. He is also an active member of online gaming communities and enjoys discussing games with other players.
+
+He's looking for a game that offers a challenging and engaging gameplay experience, with a variety of different levels and enemies to defeat. He is also interested in games with a strong visual style and immersive audio.
+
+As a student, Ethan has limited funds to spend on games, so he is always on the lookout for games that offer good value for money. He is also interested in games that offer replayability and the ability to customize gameplay experiences.
 
 
 ## B. The Worker : John
