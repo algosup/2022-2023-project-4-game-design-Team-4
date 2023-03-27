@@ -21,9 +21,27 @@ Video game market, tower defense game  market, computer game market.
 ## Competition
 
 - **Plants vs Zombies:**
+
+Developer: PopCap Games
+
+Publisher: Electronic Arts PopCap Games
+
+Creator: George Fan
+
+Cult tower defense game with 5 games released under this license. A sure value that has inspired many other games of the same style. It is mainly known for is unique gameplay and his game design.
+  
+It is available on different platform: Nintendo Switch, PlayStation 4, Windows, macOS, Android and iOS...
+
 - **Kingdom Rush Vengeance:**
 - **Dungeon Defenders:**
 - **Bloons TD:**
+
+Publisher: Ninja Kiwi
+
+This license has already released 6 games, it is also a pillar of the tower defense genre, it combines simple but effective elements. Through its different opuses, it continues to renew itself and keep its old players loyal and to attract new ones.
+
+It is also present on a wide range of platforms: Android, iOS, Microsoft Windows, macOS.
+
 - **Defense Grid: The Awakening:**
 
 # Resources
