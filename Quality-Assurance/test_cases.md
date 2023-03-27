@@ -247,7 +247,7 @@ Create the different towers
 |---|---|---|---|
 |27|When the enemies is kill|The player collect money|Pass|
 |28|When the tower is sold|The player collect money|Pass|
-|29|When the tower is upgraded|The player lose money|Pass|
+|29|When the tower is upgrade|The player lose money|Pass|
 |30|When the tower is build|The player lose money|Pass|
 
 ### 6.4.Steps for the money test
@@ -278,8 +278,7 @@ Create the different enemies
 |31|When the player reach a certain wave|The player unlock an achievement|Fail|
 |32|When the player reach a certain amount of money|The player unlock an achievement|Fail|
 |33|When the player unlock an achievement|The player can see the achievement in the achievement menu|Fail|
-|34|Create the different enemies|When the player reach kill a certain enemy|The player unlock an achievement|Fail|
-|35|When the make a certain prestige|The player unlock an achievement|Fail|
+|34|When the player reach kill a certain enemy|The player unlock an achievement|Fail|
 
 ### 7.4.Steps for the achievement test
 
@@ -291,7 +290,6 @@ Create the different enemies
 6. Verify that the player unlocks an achievement when the player reaches a certain amount of money
 7. Verify that the player can see the achievement in the achievement menu when the player unlocks an achievement
 8. Verify that the player unlocks an achievement when the player reaches kill a certain enemy
-9. Verify that the player unlocks an achievement when the player makes a certain prestige
 
 ## 8.Player stat Test
 
@@ -307,13 +305,12 @@ Create the stat menu
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|36|When the player click on the stat menu|The player can see his stat|Fail|
-|37|When the player click on his stat|The player see the total of enemies kill|Fail|
-|38|When the player click on his stat|The player see the total of boss kill|Fail|
-|39|When the player click on his stat|The player see the total of money collect|Fail|
-|40|When the player click on his stat|The player see the total of special enemies kill|Fail|
-|41|When the player click on his stat|The player see the total of wave reach|Fail|
-|42|When the player click on his stat|The player see the maximum of wave reach|Fail|
+|35|When the player click on the stat menu|The player can see his stat|Fail|
+|36|When the player click on his stat|The player see the total of enemies kill|Fail|
+|37|When the player click on his stat|The player see the total of boss kill|Fail|
+|38|When the player click on his stat|The player see the total of money collect|Fail|
+|39|When the player click on his stat|The player see the total of wave reach|Fail|
+|40|When the player click on his stat|The player see the maximum of wave reach|Fail|
 
 ### 8.4.Steps for the player stat test
 
@@ -325,8 +322,7 @@ Create the stat menu
 6. Verify that the player sees the total of enemies killed when the player clicks on his stat
 7. Verify that the player sees the total of a boss kill when the player clicks on his stat
 8. Verify that the player sees the total money collect when the player clicks on his stat
-9. Verify that the player sees the total of special enemies killed when the player clicks on his stat
-10. Verify that the player sees the total wave reach when the player clicks on his stat.
+9. Verify that the player sees the total wave reach when the player clicks on his stat.
 
 ## 9.Settings Test
 
@@ -342,8 +338,8 @@ Create the settings
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|
-|43|When the player click on the settings menu|The player can change the volume of the music in the game|Fail|
-|44|When the player click on the settings menu|The player can change the resolution of the game|Fail|
+|41|When the player click on the settings button|The player can change the volume of the music in the game|Fail|
+|42|When the player click on the settings butto,|The player can change the resolution of the game|Fail|
 
 ### 9.4.Steps for the settings test
 
@@ -365,7 +361,7 @@ Create the pause part.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|45|When the player click on the setting button|The game is paused|Fail|
+|43|When the player click on the setting button|The game is paused|Fail|
 
 ### 10.4.Steps for the pause test
 
@@ -386,8 +382,8 @@ Create the main menu.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|46|When the player click on the play button|The player can access to the game|Pass|
-|47|When the player click on the settings button|The player can access to the settings menu|Pass|
+|44|When the player click on the play button in the main menu|The player can access to the game|Pass|
+|45|When the player click on the settings button in the main menu|The player can access to the settings menu|Pass|
 
 ### 11.4.Steps for the main menu test
 
@@ -409,8 +405,8 @@ Create the tutorial.
 
 |Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|48|When the player click on the start is first game|The player directly show to the tutorial|Pass|
-|49|When the player haver already a game save|The player can't access to the tutorial|Fail|
+|46|When the player click on the start is first game|The player directly show the tutorial|Pass|
+|47|When the player haver already a game save|The player can't access to the tutorial|Fail|
 
 ### 12.4.Steps for the tutorial test
 
@@ -433,10 +429,10 @@ Create tower and enemies.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|50|When the player click on the play button|The player can hear the sound of the game|Fail|
-|51|When a wave arrived|The player can hear the sound of a bank alarm|Fail|
-|52|When the player click on the pause button|The sound of the game stop|Fail|
-|53|When the player click on the resume button|The sound of the game resume|Fail|
+|48|When the player click on the play button|The player can hear the sound of the game|Fail|
+|49|When a wave arrived|The player can hear the sound of a bank alarm|Fail|
+|50|When the player click on the pause button|The sound of the game stop|Fail|
+|51|When the player click on the resume button|The sound of the game resume|Fail|
 
 ### 13.4.Steps for the audio test
 
@@ -463,8 +459,8 @@ Create a different path in the scene
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|54|When the player launch the game|The game is playable on a computer with low specifications|Fail|
-|55|Memory usage of the game|The game doesn't crash because of the memory usage|Fail|
+|52|When the player launch the game|The game is playable on a computer with low specifications|Fail|
+|53|Memory usage of the game|The game doesn't crash because of the memory usage|Fail|
 
 ### 14.4.Steps for the performance test
 
@@ -487,13 +483,13 @@ Create the third character.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|56|When the player have enough money|The player can access to the third character|Fail|
-|57|Click on the third character|The player can control the third character|Fail|
-|58|When the player take the control of the third character|The player can't create towers|Fail|
-|59|When the player take the control of the third character|The player can't upgrade towers|Fail|
-|60|When the player take the control of the third character|The player can't sell towers|Fail|
-|61|When the player take the control of the third character|The player can access to the settings menu|Fail|
-|62|When the player take the control of the third character|The player can click on a touch to return on a Playable phase|Fail|
+|54|When the player reach a certain wave|The player can access to the third character|Fail|
+|55|Click on the third character|The player can control the third character|Fail|
+|56|When the player take the control of the third character|The player can't create towers|Fail|
+|57|When the player take the control of the third character|The player can't upgrade towers|Fail|
+|58|When the player take the control of the third character|The player can't sell towers|Fail|
+|59|When the player take the control of the third character|The player can access to the settings menu|Fail|
+|60|When the player take the control of the third character|The player can click on a touch to return on a Playable phase|Fail|
 
 ## 16.End Game Test
 
@@ -509,7 +505,7 @@ One enemie arrived at the end of the path.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|63|When the enemies reach the end point of the path|The player access to the end game menu|Fail|
+|61|When the enemies reach the end point of the path|The player access to the end game menu|Fail|
 
 ### 16.4.Steps for the end-game test
 
