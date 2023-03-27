@@ -18,30 +18,30 @@ Other team members:
 - [Game Design technical specification](#game-design-technical-specification)
 	- [Team](#team)
 	- [1. Introduction](#1-introduction)
-		- [1.1. Purpose of the document](#11-purpose-of-the-document)
-		- [1.2. Purpose of the project](#12-purpose-of-the-project)
+		- [A. Purpose of the document](#a-purpose-of-the-document)
+		- [B. Purpose of the project](#b-purpose-of-the-project)
 	- [2. Minimum System Requirements](#2-minimum-system-requirements)
 	- [3. Graphics](#3-graphics)
 	- [4. User Interface](#4-user-interface)
 	- [5. Audio](#5-audio)
 	- [6. Gameplay Features](#6-gameplay-features)
-		- [6.1. Tower Types](#61-tower-types)
+		- [A. Tower Types](#a-tower-types)
 			- [Basic Tower - The Gunner](#basic-tower---the-gunner)
 			- [Slow Tower - The Bitcoin Launcher](#slow-tower---the-bitcoin-launcher)
 			- [Splash Tower - The Potato Gun](#splash-tower---the-potato-gun)
-		- [6.2. Enemy Types](#62-enemy-types)
+		- [B. Enemy Types](#b-enemy-types)
 			- [Basic Enemy - The Thief](#basic-enemy---the-thief)
 			- [Fast Enemy - The Slayer](#fast-enemy---the-slayer)
 			- [Tank Enemy - The Warrior](#tank-enemy---the-warrior)
 			- [Note](#note)
-		- [6.3. Stages Types](#63-stages-types)
-		- [6.4. Win/Lose Conditions](#64-winlose-conditions)
-		- [6.5. Rewards](#65-rewards)
-		- [6.6. Upgrades](#66-upgrades)
+		- [C. Stages Types](#c-stages-types)
+		- [D. Win/Lose Conditions](#d-winlose-conditions)
+		- [E. Rewards](#e-rewards)
+		- [F. Upgrades](#f-upgrades)
 	- [7. Programming](#7-programming)
-		- [7.1 Programming Languages](#71-programming-languages)
+		- [A. Programming Languages](#a-programming-languages)
 			- [Why did we choose Blueprints?](#why-did-we-choose-blueprints)
-		- [7.2 Software](#72-software)
+		- [B. Software](#b-software)
 			- [Why did we choose Unreal Engine 4?](#why-did-we-choose-unreal-engine-4)
 	- [8. Testing and Debugging](#8-testing-and-debugging)
 	- [9. Deployment Distribution Services](#9-deployment-distribution-services)
@@ -53,13 +53,13 @@ Other team members:
 
 ## 1. Introduction
 
-### 1.1. Purpose of the document
+### A. Purpose of the document
 
 <!--  Purpose of the document -->
 
 This document is a technical specification of the game we are going to create. It is a document that will be used by the team to guide the development of the game. It will be used to define the game's universe, the game's mechanics and the game's assets.
 
-### 1.2. Purpose of the project
+### B. Purpose of the project
 
 <!--  Purpose of the project -->
 
@@ -106,7 +106,7 @@ For the moment, we are not sure about the minimum and recommended system require
 
 <!-- Specifications for gameplay elements such as tower types, enemy types, level types, attack types, defense mechanisms, win/loss conditions, rewards, upgrades, bonuses, etc. -->
 
-### 6.1. Tower Types
+### A. Tower Types
 
 We will have 3 tower types: a basic tower, a slow tower and a splash tower (AOE).
 All the statitics(*in italic*) of the towers given below are not final. They are just here to give you an idea of what we are thinking about.
@@ -138,7 +138,7 @@ All the statitics(*in italic*) of the towers given below are not final. They are
 
 ![The first design of the splash tower.](./../Images/Turrets/Potato_Gun.png)
 
-### 6.2. Enemy Types
+### B. Enemy Types
 
 We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All the statitics(*in italic*) of the enemies given below are not final. They are just here to give you an idea of what we are thinking about. The images are not the representation of the final enemies, just an inspiration from Team Fortress 2 and Assassin's Creed.
 
@@ -170,26 +170,26 @@ We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All th
 
 After each wave, the enneemies will get stronger. Their HP will increase by 20%.
 
-### 6.3. Stages Types
+### C. Stages Types
 
 Currently, we are thinking about having 2 stages: a tutorial level and the game in a bank universe.
 
-### 6.4. Win/Lose Conditions
+### D. Win/Lose Conditions
 
 The player will win if he manages to kill all the enemies for every wave. The player will lose an enemy reaches the vault.
 
-### 6.5. Rewards
+### E. Rewards
 
 The player will earn golds by killing enemies. The golds will be used to buy towers and upgrades turrets. You can also earn golds by selling towers(the player will get 50% of the initial cost of the tower).
 
-### 6.6. Upgrades
+### F. Upgrades
 
 The player will be able to upgrade his towers. The upgrades will be: damage, range, attack speed, slow and AOE efficiency, etc.
 
 ## 7. Programming
 
 <!-- Specifications for programming features such as scripts, modules, plugins, programming languages, libraries, etc. -->
-### 7.1 Programming Languages
+### A. Programming Languages
 
 - **Blueprints** is the main programming language used in the project.
 - **C++** is the secondary programming language used in the project.
@@ -200,7 +200,7 @@ The player will be able to upgrade his towers. The upgrades will be: damage, ran
 
 We chose Blueprints because it is a very powerful programming language. It is very easy to use and it is very easy to learn. By using Unreal Engine 4 and Blueprints, we are able to create a working game in a very short time.
 
-### 7.2 Software
+### B. Software
 
 - **Unreal Engine 4** is the main game engine used in the project. (Version 4.27)
 - **Visual Studio 2019** is the main IDE used in the project.
