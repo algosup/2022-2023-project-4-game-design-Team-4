@@ -73,3 +73,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 DeliverablesGameDesign/.DS_Store
+VerticalSlice/.DS_Store
