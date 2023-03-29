@@ -7,7 +7,7 @@ Other team members:
 
 - [Laura-Lee Hollande](https://github.com/lauraleehollande);
 - [Nicolas Mida](https://github.com/Nicolas-Mida);
-- [Vivien Bistrel Tsangue](https://github.com/Bistrel2002)
+- [Vivien Bistrel Tsangue](https://github.com/Bistrel2002);
 - and [Robin Debry](https://github.com/robin-debry).
 
 ---
@@ -168,7 +168,7 @@ We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All th
 
 #### Note
 
-After each wave, the enneemies will get stronger. Their HP will increase by 20%.
+After each wave, the enemies will get stronger. Their HP will increase by 20%.
 
 ### C. Stages Types
 
@@ -192,7 +192,6 @@ The player will be able to upgrade his towers. The upgrades will be: damage, ran
 ### A. Programming Languages
 
 - **Blueprints** is the main programming language used in the project.
-- **C++** is the secondary programming language used in the project.
 
 #### Why did we choose Blueprints?
 
@@ -203,7 +202,6 @@ We chose Blueprints because it is a very powerful programming language. It is ve
 ### B. Software
 
 - **Unreal Engine 4** is the main game engine used in the project. (Version 4.27)
-- **Visual Studio 2019** is the main IDE used in the project.
 
 #### Why did we choose Unreal Engine 4?
 
@@ -230,12 +228,10 @@ We will not deploy the game on any platform. The game will only be available on 
 | 2D isometric | 2D iso | [2D isometric](https://en.wikipedia.org/wiki/Isometric_graphics) is a 2D projection of a 3D scene onto a plane. |
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
-| C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
 | Damage | DMG | [Damage](https://en.wikipedia.org/wiki/Damage_(video_gaming)) is a measure of how much health a character loses when they are attacked. |
 | Health Points | HP | [Health Points](https://en.wikipedia.org/wiki/Health_point) are a measure of how much damage a character can take before being defeated. |
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
 | Unreal Engine | UE | [Unreal Engine](https://www.unrealengine.com/en-US/) is a 3D computer graphics game engine developed by Epic Games. |
-| Visual Studio | VS | [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code. |
 
 *All the links in this document are clickable and redirect to the source of our glossary.*
