@@ -46,15 +46,23 @@ To download the game, you have to download the .zip file of the project. You can
 
 #### Place a turret
 
-To place a turret, you have to click on a platform. Then, you have to click on the turret you want to place. If you have enough money, the turret will be placed on the platform. If you don't have enough money, the turret will not be placed and a message will appear on the screen.
+To place a turret, you have to  left click on a platform. Then, you have to left click on the turret you want to place. If you have enough money, the turret will be placed on the platform. If you don't have enough money, the turret will not be placed and a message will appear on the screen.
 
 #### Upgrade a turret
 
-To upgrade a turret, you have to click on the turret you want to upgrade. Then, you have to click on the black arrow under the turret. If you have enough money, the turret will be upgraded. If you don't have enough money, the turret will not be upgraded and a message will appear on the screen. If there is no more upgrade available, the black arrow will disappear.
+To upgrade a turret, you have to left click on the turret you want to upgrade. Then, you have to left click on the black arrow under the turret. If you have enough money, the turret will be upgraded. If you don't have enough money, the turret will not be upgraded and a message will appear on the screen. If there is no more upgrade available, the black arrow will disappear.
 
 #### Sell a turret
 
-To sell a turret, you have to click on the turret you want to sell. Then, you have to click on the red cross under the turret. You will get back half of the money you spent to buy the turret. If you sell a turret that has been upgraded, you will get back half of the money you spent to upgrade the turret.
+To sell a turret, you have to left click on the turret you want to sell. Then, you have to left click on the red cross under the turret. You will get back half of the money you spent to buy the turret. If you sell a turret that has been upgraded, you will get back half of the money you spent to upgrade the turret.
+
+#### Rotate the camera
+
+To rotate the camera, you have to right click and drag the mouse.
+
+#### Enable/disable the first person mode
+
+To enable/disable the first person mode, you have to press the "V" key on your keyboard.
 
 #### Pause the game
 
