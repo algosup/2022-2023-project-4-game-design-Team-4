@@ -375,7 +375,7 @@ Create the pause part.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|43|When the player click on the setting button|The game is paused|Fail|
+|51|When the player click on the setting button|The game is paused|Fail|
 
 ### 10.4.Steps for the pause test
 
@@ -396,8 +396,8 @@ Create the main menu.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|44|When the player click on the play button in the main menu|The player can access to the game|Pass|
-|45|When the player click on the settings button in the main menu|The player can access to the settings menu|Pass|
+|52|When the player click on the play button in the main menu|The player can access to the game|Pass|
+|53|When the player click on the settings button in the main menu|The player can access to the settings menu|Pass|
 
 ### 11.4.Steps for the main menu test
 
@@ -419,8 +419,8 @@ Create the tutorial.
 
 |Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|46|When the player click on the start is first game|The player directly show the tutorial|Pass|
-|47|When the player haver already a game save|The player can't access to the tutorial|Fail|
+|54|When the player click on the start is first game|The player directly show the tutorial|Pass|
+|55|When the player haver already a game save|The player can't access to the tutorial|Fail|
 
 ### 12.4.Steps for the tutorial test
 
@@ -443,10 +443,10 @@ Create tower and enemies.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|48|When the player click on the play button|The player can hear the sound of the game|Fail|
-|49|When a wave arrived|The player can hear the sound of a bank alarm|Fail|
-|50|When the player click on the pause button|The sound of the game stop|Fail|
-|51|When the player click on the resume button|The sound of the game resume|Fail|
+|56|When the player click on the play button|The player can hear the sound of the game|Fail|
+|57|When a wave arrived|The player can hear the sound of a bank alarm|Fail|
+|58|When the player click on the pause button|The sound of the game stop|Fail|
+|59|When the player click on the resume button|The sound of the game resume|Fail|
 
 ### 13.4.Steps for the audio test
 
@@ -473,8 +473,8 @@ Create a different path in the scene
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|52|When the player launch the game|The game is playable on a computer with low specifications|Fail|
-|53|Memory usage of the game|The game doesn't crash because of the memory usage|Fail|
+|60|When the player launch the game|The game is playable on a computer with low specifications|Fail|
+|61|Memory usage of the game|The game doesn't crash because of the memory usage|Fail|
 
 ### 14.4.Steps for the performance test
 
@@ -497,19 +497,19 @@ Create the third character.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|54|When the player reach a certain wave|The player can access to the third character|Fail|
-|55|Click on the third character|The player can control the third character|Fail|
-|56|When the player take the control of the third character|The player can't create towers|Fail|
-|57|When the player take the control of the third character|The player can't upgrade towers|Fail|
-|58|When the player take the control of the third character|The player can't sell towers|Fail|
-|59|When the player take the control of the third character|The player can access to the settings menu|Fail|
-|60|When the player take the control of the third character|The player can click on a touch to return on a Playable phase|Fail|
+|62|When the player reach a certain wave|The player can access to the third character|Fail|
+|63|Click on V|The player can control the third character|Fail|
+|64|When the player take the control of the third character|The player can't create towers|Pass|
+|65|When the player take the control of the third character|The player can't upgrade towers|Fail|
+|66|When the player take the control of the third character|The player can't sell towers|Fail|
+|67|When the player take the control of the third character|The player can access to the settings menu|Fail|
+|68|When the player take the control of the third character|The player can click on "V" the player return to the Playable phase|Fail|
 
 ## 16.End Game Test
 
 ### 16.1.Objective for the end-game test
 
-Ensure that the player cannot access the end-game menu because it's an infinite game.
+Ensure that the player can access to the end game menu.
 
 ### 16.2.Pre-Conditions for the end-game test
 
@@ -519,10 +519,10 @@ One enemie arrived at the end of the path.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|61|When the enemies reach the end point of the path|The player access to the end game menu|Fail|
+|69|When the enemies reach the end point of the path|The player access to the end game menu|Fail|
 
 ### 16.4.Steps for the end-game test
 
-1. Lose all your health points
-2. Verify that the player cannot access to the end game menu when the player reach lose game
-3. Verify that the game re-launch at the previous wave when the player lose the game
+1. One enemie arrived at the end of the path.
+2. Verify that the player access to the end game menu when the enemies reach the end point of the path.
+3. Verify that the player can access to the end game menu when the player lose the game.
