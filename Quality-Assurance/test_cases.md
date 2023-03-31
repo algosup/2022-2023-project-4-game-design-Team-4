@@ -121,14 +121,28 @@ Put the camera into the scene.
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
 |2|Nothing|Camera stay at is place|Pass|
+|3|Arrow up|Camera move up|Pass|
+|4|Arrow down|Camera move down|Pass|
+|5|Arrow left|Camera move left|Pass|
+|6|Arrow right|Camera move right|Pass|
+|7|Touch Q|Camera move left|Pass|
+|8|Touch D|Camera move right|Pass|
+|9|Touch Z|Camera move up|Pass|
+|10|Touch S|Camera move down|Pass|
 
 ### 2.4.Steps for the camera test
 
-1. Put the camera into the scene
-2. Code in C++ to zoom in on the camera
-3. Code in C++ to zoom out the camera
-4. Verify that the output for the zoom-in is as expected
-5. Verify that the output for the zoom-out is as expected
+1. Create a camera object.
+2. Put the camera into the scene.
+3. Verify that the camera stay at is place.
+4. Verify that the camera move up when the arrow up is pressed.
+5. Verify that the camera move down when the arrow down is pressed.
+6. Verify that the camera move left when the arrow left is pressed.
+7. Verify that the camera move right when the arrow right is pressed.
+8. Verify that the camera move left when the Q is pressed.
+9. Verify that the camera move right when the D is pressed.
+10. Verify that the camera move up when the Z is pressed.
+11. Verify that the camera move down when the S is pressed.
 
 ## 3.Enemies Test
 
@@ -146,14 +160,14 @@ Create the path.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|3|Nothing begin the game|the enemies arrived|Pass|
-|4|When the enemies arrived they follow the path created|The enemies follow the path|Pass|
-|5|the enemies arrived with life|The enemies arrived with the correct life|Pass|
-|6|the enemies arrived with move speed|The enemies arrived with the correct move speed|Pass|
-|7|The turret attack the enemies|The enemies lose life|Pass|
-|8|When the enemies lose all their life|The enemies die|Pass|
-|9|When the enemies die|The enemies are not in the scene|Pass|
-|10|When the enemies die|The enemies make an animation of death|Pass|
+|11|Nothing begin the game|the enemies arrived|Pass|
+|12|When the enemies arrived they follow the path created|The enemies follow the path|Pass|
+|13|the enemies arrived with life|The enemies arrived with the correct life|Pass|
+|14|the enemies arrived with move speed|The enemies arrived with the correct move speed|Pass|
+|15|The turret attack the enemies|The enemies lose life|Pass|
+|16|When the enemies lose all their life|The enemies die|Pass|
+|17|When the enemies die|The enemies are not in the scene|Pass|
+|18|When the enemies die|The enemies make an animation of death|Pass|
 
 ### 3.4.Steps for the enemies test
 
@@ -184,22 +198,22 @@ Create the different towers
 
 ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|11|Click on a slot|Display the choice of the turret |Pass|
-|12|Choose a turret|Create a turret on the slot|Pass|
-|13|When the players have enough money|The tower is build|Pass|
-|14|When the players have not enough money|The tower is not build|Pass|
-|15|When the tower is build|The tower can be upgrade|Pass|
-|16|When the tower is upgraded|The tower can be upgrade again|Pass|
-|17|When the tower is upgraded twice|The tower can't be upgrade again|Pass|
-|18|When the players click to sell the tower|The tower is sold|Pass|
-|19|When the tower is sold|The tower is not in the scene|Pass|
-|20|When the tower is sold|The players collect the money divided by 2 of the tower|Fail|
-|21|When the tower is sold|The tower can be build again|Pass|
-|22|When an enemies is in the range of a turret|Turret target the first enemy|Pass|
-|23|When an enemies is target|Turret turn to the enemy|Pass|
-|24|When an enemies is target|Turret shoot at the enemy|Pass|
-|25|When the turret shoot at the enemy|The enemy lose life|Pass|
-|26|When you click on the turret|Display the range of the turret|Pass|
+|19|Click on a slot|Display the choice of the turret |Pass|
+|20|Choose a turret|Create a turret on the slot|Pass|
+|21|When the players have enough money|The tower is build|Pass|
+|22|When the players have not enough money|The tower is not build|Pass|
+|23|When the tower is build|The tower can be upgrade|Pass|
+|24|When the tower is upgraded|The tower can be upgrade again|Pass|
+|25|When the tower is upgraded twice|The tower can't be upgrade again|Pass|
+|26|When the players click to sell the tower|The tower is sold|Pass|
+|27|When the tower is sold|The tower is not in the scene|Pass|
+|28|When the tower is sold|The players collect the money divided by 2 of the tower|Fail|
+|29|When the tower is sold|The tower can be build again|Pass|
+|30|When an enemies is in the range of a turret|Turret target the first enemy|Pass|
+|31|When an enemies is target|Turret turn to the enemy|Pass|
+|32|When an enemies is target|Turret shoot at the enemy|Pass|
+|33|When the turret shoot at the enemy|The enemy lose life|Pass|
+|34|When you click on the turret|Display the range of the turret|Pass|
 
 ### 4.4.Steps for the tower test
 
@@ -245,10 +259,10 @@ Create the different towers
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|27|When the enemies is kill|The player collect money|Pass|
-|28|When the tower is sold|The player collect money|Pass|
-|29|When the tower is upgrade|The player lose money|Pass|
-|30|When the tower is build|The player lose money|Pass|
+|35|When the enemies is kill|The player collect money|Pass|
+|36|When the tower is sold|The player collect money|Pass|
+|37|When the tower is upgrade|The player lose money|Pass|
+|38|When the tower is build|The player lose money|Pass|
 
 ### 6.4.Steps for the money test
 
@@ -275,10 +289,10 @@ Create the different enemies
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|31|When the player reach a certain wave|The player unlock an achievement|Fail|
-|32|When the player reach a certain amount of money|The player unlock an achievement|Fail|
-|33|When the player unlock an achievement|The player can see the achievement in the achievement menu|Fail|
-|34|When the player reach kill a certain enemy|The player unlock an achievement|Fail|
+|39|When the player reach a certain wave|The player unlock an achievement|Fail|
+|40|When the player reach a certain amount of money|The player unlock an achievement|Fail|
+|41|When the player unlock an achievement|The player can see the achievement in the achievement menu|Fail|
+|42|When the player reach kill a certain enemy|The player unlock an achievement|Fail|
 
 ### 7.4.Steps for the achievement test
 
@@ -305,12 +319,12 @@ Create the stat menu
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|35|When the player click on the stat menu|The player can see his stat|Fail|
-|36|When the player click on his stat|The player see the total of enemies kill|Fail|
-|37|When the player click on his stat|The player see the total of boss kill|Fail|
-|38|When the player click on his stat|The player see the total of money collect|Fail|
-|39|When the player click on his stat|The player see the total of wave reach|Fail|
-|40|When the player click on his stat|The player see the maximum of wave reach|Fail|
+|43|When the player click on the stat menu|The player can see his stat|Fail|
+|44|When the player click on his stat|The player see the total of enemies kill|Fail|
+|45|When the player click on his stat|The player see the total of boss kill|Fail|
+|46|When the player click on his stat|The player see the total of money collect|Fail|
+|47|When the player click on his stat|The player see the total of wave reach|Fail|
+|48|When the player click on his stat|The player see the maximum of wave reach|Fail|
 
 ### 8.4.Steps for the player stat test
 
@@ -338,8 +352,8 @@ Create the settings
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|
-|41|When the player click on the settings button|The player can change the volume of the music in the game|Fail|
-|42|When the player click on the settings butto,|The player can change the resolution of the game|Fail|
+|49|When the player click on the settings button|The player can change the volume of the music in the game|Fail|
+|50|When the player click on the settings butto,|The player can change the resolution of the game|Fail|
 
 ### 9.4.Steps for the settings test
 
