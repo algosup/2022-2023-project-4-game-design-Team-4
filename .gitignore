@@ -74,3 +74,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 TestTD/Intermediate/CachedAssetRegistry.bin
 TestTD/Saved/AutoScreenshot.png
+*.bin
