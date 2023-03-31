@@ -1,6 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
-
+**/.DS_Store
 # Compiled Object files
 *.slo
 *.lo
@@ -72,7 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-DeliverablesGameDesign/.DS_Store
-VerticalSlice/.DS_Store
-.DS_Store
-.DS_Store
+TestTD/Intermediate/CachedAssetRegistry.bin
+TestTD/Saved/AutoScreenshot.png
+*.bin
