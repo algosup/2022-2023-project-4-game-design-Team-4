@@ -115,7 +115,7 @@ All the statitics(*in italic*) of the towers given below are not final. They are
 
 - **Description**: The basic tower is a tower that shoots dollars at the enemies. It is the most basic tower in the game.
 - **Cost**: The basic tower costs 60 dollars.
-- **Attack Type**: The basic tower shoots projectiles at the enemies. The projectiles are the most basic projectiles in the game, they deal damage to the enemies (*20 damage per projectile*) but the turret is the fastest turret in the game (*1 projectile per second*).
+- **Attack Type**: The basic tower shoots projectiles at the enemies. The projectiles are the most basic projectiles in the game, they deal damage to the enemies (*10 damage per projectile*) but the turret is the fastest turret in the game (*5 projectiles per second*).
 - **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *80* dollars and the second upgrade costs *130* dollars. We don't know exactly a good balance for the upgrades yet.
 
 ![The first design of the basic tower.](./../Images/Turrets/Gunner.png)
