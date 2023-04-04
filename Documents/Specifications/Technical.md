@@ -34,10 +34,11 @@ Other team members:
 			- [Fast Enemy - The Slayer](#fast-enemy---the-slayer)
 			- [Tank Enemy - The Warrior](#tank-enemy---the-warrior)
 			- [Note](#note)
-		- [C. Stages Types](#c-stages-types)
-		- [D. Win/Lose Conditions](#d-winlose-conditions)
-		- [E. Rewards](#e-rewards)
-		- [F. Upgrades](#f-upgrades)
+		- [C. First Person View](#c-first-person-view)
+		- [D. Stages Types](#d-stages-types)
+		- [E. Win/Lose Conditions](#e-winlose-conditions)
+		- [F. Rewards](#f-rewards)
+		- [G. Upgrades](#g-upgrades)
 	- [7. Programming](#7-programming)
 		- [A. Programming Languages](#a-programming-languages)
 			- [Why did we choose Blueprints?](#why-did-we-choose-blueprints)
@@ -115,7 +116,7 @@ All the statitics(*in italic*) of the towers given below are not final. They are
 
 - **Description**: The basic tower is a tower that shoots dollars at the enemies. It is the most basic tower in the game.
 - **Cost**: The basic tower costs 60 dollars.
-- **Attack Type**: The basic tower shoots projectiles at the enemies. The projectiles are the most basic projectiles in the game, they deal damage to the enemies (*20 damage per projectile*) but the turret is the fastest turret in the game (*1 projectile per second*).
+- **Attack Type**: The basic tower shoots projectiles at the enemies. The projectiles are the most basic projectiles in the game, they deal damage to the enemies (*10 damage per projectile*) but the turret is the fastest turret in the game (*5 projectiles per second*).
 - **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *80* dollars and the second upgrade costs *130* dollars. We don't know exactly a good balance for the upgrades yet.
 
 ![The first design of the basic tower.](./../Images/Turrets/Gunner.png)
@@ -170,19 +171,23 @@ We will have 3 enemy types: a basic enemy, a fast enemy and a tank enemy. All th
 
 After each wave, the enemies will get stronger. Their HP will increase by 20%.
 
-### C. Stages Types
+### C. First Person View
+
+Inspired by FPS games, the game will have a first person view. The player will be able to move on the map to see the enemies and the towers. However, he will not be able to interact with the turrets, this is only a function of immersion in the game.
+
+### D. Stages Types
 
 Currently, we are thinking about having 2 stages: a tutorial level and the game in a bank universe.
 
-### D. Win/Lose Conditions
+### E. Win/Lose Conditions
 
 The player will win if he manages to kill all the enemies for every wave. The player will lose an enemy reaches the vault.
 
-### E. Rewards
+### F. Rewards
 
 The player will earn golds by killing enemies. The golds will be used to buy towers and upgrades turrets. You can also earn golds by selling towers(the player will get 50% of the initial cost of the tower).
 
-### F. Upgrades
+### G. Upgrades
 
 The player will be able to upgrade his towers. The upgrades will be: damage, range, attack speed, slow and AOE efficiency, etc.
 
@@ -229,6 +234,7 @@ We will not deploy the game on any platform. The game will only be available on 
 | Area Of Effect | AOE | [Area of Effect](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#area_of_effect), commonly abbreviated as "AoE", refers to the range of an ability or attack that affects multiple targets within a specific area, rather than a single target. |
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | Damage | DMG | [Damage](https://en.wikipedia.org/wiki/Damage_(video_gaming)) is a measure of how much health a character loses when they are attacked. |
+| First Person Shooter | FPS | [First-person shooter](https://en.wikipedia.org/wiki/First-person_shooter) is a video game genre centered around gun and other weapon-based combat in a first-person perspective. |
 | Health Points | HP | [Health Points](https://en.wikipedia.org/wiki/Health_point) are a measure of how much damage a character can take before being defeated. |
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
