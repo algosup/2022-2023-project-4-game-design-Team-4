@@ -48,6 +48,8 @@ Overall, the tower defense game market is poised for growth and evolution in the
 
 ### Intended sector
 
+Older children, teenagers, and young adults who enjoy strategy games and are looking for a challenging and engaging gameplay experience. These players may enjoy the mix of accessible gameplay mechanics and gradual learning curve that tower defense games can offer, as well as the opportunity to develop their skills over time.
+
 ## Competition
 
 - **Plants vs Zombies:**
