@@ -35,11 +35,16 @@ ___
   - [E. Ending](#e-ending)
 - [5. User Interface](#5-user-interface)
   - [A. Main menu](#a-main-menu)
+    - [A.1. Main menu mock-up](#a1-main-menu-mock-up)
+    - [A.2. Final main menu](#a2-final-main-menu)
   - [B. In-game interface](#b-in-game-interface)
   - [C. Heads-up display (HUD)](#c-heads-up-display-hud)
   - [D. Settings and options](#d-settings-and-options)
     - [D.1. Mock-up](#d1-mock-up)
-    - [D.2. Settings](#d2-settings)
+    - [D.2 Final settings menu](#d2-final-settings-menu)
+    - [D.3. Graphics Settings](#d3-graphics-settings)
+    - [D.4. Audio Settings](#d4-audio-settings)
+    - [D.5. Commands Settings](#d5-commands-settings)
   - [E. Tutorial and Help](#e-tutorial-and-help)
 - [6. Audio and Visuals](#6-audio-and-visuals)
   - [A. Graphics](#a-graphics)
@@ -253,16 +258,23 @@ As the waves are infinite, the game will never end. The player will have to play
 
 ## A. Main menu
 
+### A.1. Main menu mock-up
 ![main-menu](../Images/Mockups/mockupMainMenu.png)
 <sub><b>Note :</b> This mock-up is not final and is subject to change.</sub
+
+### A.2. Final main menu
+
+![main-menu](../Images/Screens/mainMenu-1.png)
 
 The main menu will be composed of four main parts :
 
 - The **Play button** will allow the player to start the game
 
-- The **Settings button** were the player can change the game's settings
+- The **Options button** were the player can change the game's settings
 
 - The **Credits button** will allow the player to see the credits
+
+![credits](../Images/Screens/credits-1.png)
 
 - The **Quit button** will allow the player to quit the game
 ## B. In-game interface
@@ -288,30 +300,51 @@ As we saw in the mock-up, the HUD will be composed of three main parts :
 ![settings](../Images/Mockups/mockupSettingsMenu.png)
 <sub><b>Note :</b> This mock-up is not final and is subject to change.</sub>
 
-For the moment, we plan to implement the volume control for the music and the sound effects.
+### D.2 Final settings menu
 
-Furthermore others settings will be implemented and added in this document as soon as they are decided.
+![settings](../Images/Screens/options-1.png)
 
-A credits section will also be implemented to display the names of the different contributors to the project.
+In the options menu, the player will be able to change the game's settings :
+- The audio 
+- The graphics 
+- The commands 
 
-### D.2. Settings
 
-<!-- Insert here a screenshot of the settings menu -->
+### D.3. Graphics Settings
 
-Inside the settings menu, the player will access the following settings :
+<!-- Insert here a screenshot of the graphics menu -->
+![settings](../Images/Screens/graphics-1.png)
 
-- **Audio** : The player will be able to change the volume of the music and the sound effects
+Inside the graphics settings, the player will access the following options : 
+    - **The display resolution** (severals are available depending on the player's screen)
+    - **The window mode** (full-screen, windowed-full-screen or windowed)
+    - **The frame rate** (30, 60, 144 and unlimited)
+    - **The Post-Processing** (From Low to Ultra)
+    - **Shadows Quality** (From Low to Ultra)
+    - **Anti-Aliasing** (From Low to Ultra)
+    - **Texture Quality** (From Low to Ultra)
+    - **Effects Quality** (From Low to Ultra)
 
-- **Graphics** : The player will be able to change the aspect of the game such as :
-    - The resolution
-    - The quality of the textures
-    - The quality of the shadows
-    - Post-processing effects
-    - Anti-aliasing
-    - The Display Mode (Fullscreen or Windowed)
-    - The Frame Rate 
+For more explanations on what each graphic settings does, please refer to the [Glossary](#glossary).
 
-- **Commands** : The player will be able to see the different commands of the game thanks to a schematic representation of the mouse
+### D.4. Audio Settings
+
+<!-- Insert here a screenshot of the music menu -->
+![settings](../Images/Screens/music-1.png)
+
+Inside the audio settings, the player will access the following options : 
+    - **The music volume** (From 0 to 100)
+    - **The sound effects volume** (From 0 to 100)
+    - **The voice volume** (From 0 to 100)
+
+They are all represented by a slider that the player can move to change the volume. More visible details will be added to the sliders to make it easier to use.
+
+### D.5. Commands Settings
+
+<!-- Insert here a screenshot of the commands menu -->
+
+
+In the commands settings, the player will be able to take note of the different commands available in the game.
 
 
 ## E. Tutorial and Help
@@ -475,4 +508,4 @@ The main resources used for the development of the game are people's time, knowl
 
 *All the links in this document are clickable and redirect to the source of our glossary.*
 
-<sub>Created on 2023-02-28 and updated on 2023-03-10 by [Nicolas MIDA](https://www.linkedin.com/in/nicolas-mida/) </sub> 
+<sub>Created on 2023-02-28 and updated on 2023-04-04 by [Nicolas MIDA](https://www.linkedin.com/in/nicolas-mida/) </sub> 
