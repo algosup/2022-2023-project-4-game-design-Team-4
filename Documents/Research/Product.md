@@ -103,13 +103,7 @@ Defense Grid: The Awakening is available on multiple platforms, including Micros
 
 ## Sources
 <!-- think also of sources to follow (people and keywords on Linkedin for example, a specialized blog or news outlet) -->
-**Playstore:**
-
-**Steam:**
-
-**Epic Game store:**
-
-**Games review:**
+Playstore, Steam, Epic Game store, games review
 
 ## Glossary
 <!-- write down all the words specific to the product's field, or any technical field you're working in, with a short definition -->
