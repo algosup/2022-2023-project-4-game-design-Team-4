@@ -54,27 +54,50 @@ Older children, teenagers, and young adults who enjoy strategy games and are loo
 
 - **Plants vs Zombies:**
 
-Developer: PopCap Games
+Publisher: PopCap Games
 
-Publisher: Electronic Arts PopCap Games
+Plants vs Zombies is a tower defense game that was first released in 2009. The game is published by PopCap Games, a developer known for creating popular casual games. The game has gained a large following among gamers and has been praised for its humorous and engaging gameplay.
 
-Creator: George Fan
+In Plants vs Zombies, players must defend their house from a horde of zombies by strategically placing different types of plants with unique abilities. The game offers a variety of different plants to choose from, each with its own strengths and weaknesses. Players must also manage their resources effectively to purchase new plants and upgrades.
 
-Cult tower defense game with 5 games released under this license. A sure value that has inspired many other games of the same style. It is mainly known for is unique gameplay and his game design.
-  
-It is available on different platform: Nintendo Switch, PlayStation 4, Windows, macOS, Android and iOS...
+The game is available on a wide range of platforms, including Android, iOS, Microsoft Windows, and macOS. Plants vs Zombies has been a popular choice for both casual and hardcore gamers alike, and its success has spawned numerous sequels and spin-offs. The game's unique blend of humor, strategy, and addictive gameplay has helped it to stand out in the crowded tower defense genre.
 
 - **Kingdom Rush Vengeance:**
+Publisher: Ironhide Game Studio
+
+Kingdom Rush Vengeance is a tower defense game that was released in 2018. It is the fourth installment in the Kingdom Rush series, which has gained a large following among tower defense fans. The game is published by Ironhide Game Studio, a developer known for its high-quality tower defense games.
+
+In Kingdom Rush Vengeance, players take on the role of the villainous Vez'nan as he seeks to conquer the kingdom of Linirea. The game offers a variety of gameplay mechanics, including tower upgrades, hero units, and special abilities that can be used to defeat waves of enemies.
+
+Kingdom Rush Vengeance is available on a wide range of platforms, including Android, iOS, Microsoft Windows, and macOS. The game has been praised for its challenging gameplay, engaging storyline, and high production values, making it a popular choice among tower defense fans. The Kingdom Rush series has a loyal fanbase, and the release of new games in the series continues to attract new players while keeping old fans engaged.
+
 - **Dungeon Defenders:**
+Publisher: Reverb Triple XP
+
+It is a tower defense and action role-playing game that was released in 2011.
+
+In Dungeon Defenders, players must defend their Eternia Crystals from waves of enemies by strategically placing towers and using their own character to fight off the hordes. The game features a variety of playable heroes, each with their own unique abilities and play styles. Players can also upgrade their towers and characters with loot dropped by defeated enemies.
+
+Dungeon Defenders is available on a variety of platforms, including Microsoft Windows, PlayStation 3, Xbox 360, iOS, and Android. The game received positive reviews for its fun co-op gameplay, colorful visuals, and addictive tower defense mechanics. It has since spawned multiple sequels and spin-offs, with a loyal fanbase that continues to enjoy the game and its subsequent iterations.
+
 - **Bloons TD:**
 
 Publisher: Ninja Kiwi
 
-This license has already released 6 games, it is also a pillar of the tower defense genre, it combines simple but effective elements. Through its different opuses, it continues to renew itself and keep its old players loyal and to attract new ones.
+Bloons TD is a tower defense game series that has gained a large following among gamers since its release in 2007. The game is published by Ninja Kiwi, a developer known for its high-quality tower defense games. The series has since expanded to 6 different games, and it is a staple in the tower defense genre.
 
-It is also present on a wide range of platforms: Android, iOS, Microsoft Windows, macOS.
+In Bloons TD, players strategically place towers with different abilities to pop balloons that are trying to get past the player's defenses. The game offers a variety of different maps and levels, as well as a range of towers with different abilities and upgrade paths to choose from.
+
+Bloons TD is available on a wide range of platforms, including Android, iOS, Microsoft Windows, and macOS. The series is known for its simple yet effective gameplay mechanics that are easy to pick up and play but difficult to master. Through its different iterations, the series continues to attract new players while keeping its loyal fanbase engaged.
 
 - **Defense Grid: The Awakening:**
+Publisher: Hidden Path Entertainment
+
+The Awakening is a classic tower defense game that was first released in 2008.
+
+In Defense Grid: The Awakening, players must strategically place defensive towers and obstacles to prevent waves of aliens from stealing power cores. The game features a variety of tower types, each with its own strengths and weaknesses, as well as a resource management system that allows players to earn additional resources by strategically managing their towers.
+
+Defense Grid: The Awakening is available on multiple platforms, including Microsoft Windows, Xbox 360, and PlayStation 3. The game has been praised for its challenging gameplay, polished graphics, and well-designed levels. It has also been recognized for its innovation within the tower defense genre, with some critics calling it one of the best tower defense games ever made.
 
 # Resources
 
