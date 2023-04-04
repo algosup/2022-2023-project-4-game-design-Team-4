@@ -26,6 +26,8 @@ Other team members:
 		- [A. Main Menu](#a-main-menu)
 			- [A.1 Buttons Specifications](#a1-buttons-specifications)
 		- [B. Options Menu](#b-options-menu)
+			- [B.1 Buttons Specifications](#b1-buttons-specifications)
+		- [C. Credits Menu](#c-credits-menu)
 	- [5. Audio](#5-audio)
 	- [6. Gameplay Features](#6-gameplay-features)
 		- [A. Tower Types](#a-tower-types)
@@ -133,6 +135,18 @@ The options menu will have 4 buttons, including a return button:
 ![Graphics Button](./../Images/Screens/graphics-1.png)
 
 - **Commands/help**: This button will redirect the player to the commands/help page showing the controls of the game.
+
+#### B.1 Buttons Specifications
+
+All the buttons will get an hover effect when the player's mouse is over them. Their size will increase.
+
+![Hover Effect](./../Images/Screens/options-2.png)
+
+### C. Credits Menu
+
+The credits menu is a simple page showing the credits of the game. All the contributors will be listed in the credits page.
+
+![Credits Menu](./../Images/Screens/credits-1.png)
 
 ## 5. Audio
 
