@@ -23,11 +23,12 @@ Other team members:
 	- [2. Minimum System Requirements](#2-minimum-system-requirements)
 	- [3. Graphics](#3-graphics)
 	- [4. User Interface](#4-user-interface)
-		- [A. Main Menu](#a-main-menu)
-			- [A.1 Buttons Specifications](#a1-buttons-specifications)
-		- [B. Options Menu](#b-options-menu)
-			- [B.1 Buttons Specifications](#b1-buttons-specifications)
-		- [C. Credits Menu](#c-credits-menu)
+		- [A. Menu](#a-menu)
+			- [A.1 Main Menu](#a1-main-menu)
+				- [A.1.a Buttons Specifications](#a1a-buttons-specifications)
+			- [A.2 Options Menu](#a2-options-menu)
+				- [A.2.a Buttons Specifications](#a2a-buttons-specifications)
+			- [A.3 Credits Menu](#a3-credits-menu)
 	- [5. Audio](#5-audio)
 	- [6. Gameplay Features](#6-gameplay-features)
 		- [A. Tower Types](#a-tower-types)
@@ -99,7 +100,9 @@ For the moment, we are not sure about the minimum and recommended system require
 - **In-game UI**: Tower selection, Upgrade, Pause
 - **Dialogue Window**: "Congratulations, You Won!", "You Lost", "You Won the Level", "You Lost the Level", "You Won the Game", "You Lost the Game" and some explanations about the game in the tutorial.
 
-### A. Main Menu
+### A. Menu
+
+#### A.1 Main Menu
 
 The main menu will have 4 buttons:
 
@@ -110,7 +113,7 @@ The main menu will have 4 buttons:
 
 ![Main Menu](./../Images/Screens/mainMenu-1.png)
 
-#### A.1 Buttons Specifications
+##### A.1.a Buttons Specifications
 
 All the buttons will get an hover effect when the player's mouse is over them.
 
@@ -120,7 +123,7 @@ If the hovered button is the "Play" button, the button will get also rotation ef
 
 ![Rotation Effect](./../Images/Screens/mainMenu-2.png)
 
-### B. Options Menu
+#### A.2 Options Menu
 
 The options menu will have 4 buttons, including a return button:
 
@@ -136,13 +139,13 @@ The options menu will have 4 buttons, including a return button:
 
 - **Commands/help**: This button will redirect the player to the commands/help page showing the controls of the game.
 
-#### B.1 Buttons Specifications
+##### A.2.a Buttons Specifications
 
 All the buttons will get an hover effect when the player's mouse is over them. Their size will increase.
 
 ![Hover Effect](./../Images/Screens/options-2.png)
 
-### C. Credits Menu
+#### A.3 Credits Menu
 
 The credits menu is a simple page showing the credits of the game. All the contributors will be listed in the credits page.
 
