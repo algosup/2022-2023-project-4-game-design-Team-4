@@ -40,11 +40,11 @@ Overall, the tower defense game market is poised for growth and evolution in the
 
 ## Target audience/customer
 
-**Computer gamer:**
+**Computer gamer:** This target audience includes gamers who play games on personal computers, including desktops, laptops, and even some tablets. Computer gamers can be of any age or gender and come from a wide range of backgrounds. They are typically interested in games that offer depth and complexity, including strategy games, role-playing games, and simulation games. They may also be interested in online gaming experiences and games that offer competitive play.
 
-**Mobile gamer:**
+**Mobile gamer:** This target audience includes gamers who play games on mobile devices such as smartphones and tablets. Mobile gamers are typically more casual than computer gamers and may be looking for games that are easy to pick up and play in short bursts. They may enjoy games that offer simple mechanics, such as puzzle games, casual games, or arcade-style games. Mobile gamers are often on the go and may appreciate games that can be played while commuting or during other downtime.
 
-**Tower defense players:**
+**Tower defense players:** This target audience includes gamers who enjoy playing tower defense games. Tower defense players can be of any age or gender and may play games on computers, mobile devices, or consoles. They are typically interested in games that offer strategic gameplay, resource management, and puzzle-solving. Tower defense players may also enjoy games with sci-fi or fantasy themes, as well as games that offer competitive play, such as multiplayer modes.
 
 ### Intended sector
 
