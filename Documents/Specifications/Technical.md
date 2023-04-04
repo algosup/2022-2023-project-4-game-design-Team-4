@@ -23,6 +23,12 @@ Other team members:
 	- [2. Minimum System Requirements](#2-minimum-system-requirements)
 	- [3. Graphics](#3-graphics)
 	- [4. User Interface](#4-user-interface)
+		- [A. Menu](#a-menu)
+			- [A.1 Main Menu](#a1-main-menu)
+				- [A.1.a Buttons Specifications](#a1a-buttons-specifications)
+			- [A.2 Options Menu](#a2-options-menu)
+				- [A.2.a Buttons Specifications](#a2a-buttons-specifications)
+			- [A.3 Credits Menu](#a3-credits-menu)
 	- [5. Audio](#5-audio)
 	- [6. Gameplay Features](#6-gameplay-features)
 		- [A. Tower Types](#a-tower-types)
@@ -91,9 +97,59 @@ For the moment, we are not sure about the minimum and recommended system require
 
 <!-- Specifications for menus, buttons, icons, dialogue windows, progress indicators, progress bars, sliders, etc. -->
 
-- **Main Menu**: Start Game, Tutorial, Options, Quit
 - **In-game UI**: Tower selection, Upgrade, Pause
 - **Dialogue Window**: "Congratulations, You Won!", "You Lost", "You Won the Level", "You Lost the Level", "You Won the Game", "You Lost the Game" and some explanations about the game in the tutorial.
+
+### A. Menu
+
+#### A.1 Main Menu
+
+The main menu will have 4 buttons:
+
+- **Play**: This button will redirect the player to the game levels
+- **Options**: This button will redirect the player to the options menu
+- **Credits**: This button will redirect the player to the credits menu
+- **Quit**: This button will quit the game
+
+![Main Menu](./../Images/Screens/mainMenu-1.png)
+
+##### A.1.a Buttons Specifications
+
+All the buttons will get an hover effect when the player's mouse is over them.
+
+![Hover Effect](./../Images/Screens/mainMenu-3.png)
+
+If the hovered button is the "Play" button, the button will get also rotation effect.
+
+![Rotation Effect](./../Images/Screens/mainMenu-2.png)
+
+#### A.2 Options Menu
+
+The options menu will have 4 buttons, including a return button:
+
+![Options Menu](./../Images/Screens/options-1.png)
+
+- **Music**: This button will allow the player to control the music volume.
+
+![Music Button](./../Images/Screens/music-1.png)
+
+- **Graphics**: This button will allow the player to control the graphics quality.
+
+![Graphics Button](./../Images/Screens/graphics-1.png)
+
+- **Commands/help**: This button will redirect the player to the commands/help page showing the controls of the game.
+
+##### A.2.a Buttons Specifications
+
+All the buttons will get an hover effect when the player's mouse is over them. Their size will increase.
+
+![Hover Effect](./../Images/Screens/options-2.png)
+
+#### A.3 Credits Menu
+
+The credits menu is a simple page showing the credits of the game. All the contributors will be listed in the credits page.
+
+![Credits Menu](./../Images/Screens/credits-1.png)
 
 ## 5. Audio
 
