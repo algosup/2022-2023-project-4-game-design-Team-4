@@ -349,7 +349,7 @@ They are all represented by a slider that the player can move to change the volu
 <!-- Insert here a screenshot of the commands menu -->
 
 
-In the commands settings, the player will be able to take note of the different commands available in the game.
+In the commands settings, the player will be able to take note of the different commands available in the game (see the [Controls](#c-controls) section for more details).
 
 
 ## E. Tutorial and Help
@@ -470,7 +470,8 @@ Here's the workshop game pipeline:
 Game Idea → Game Concept → One Sheet and Final Game Idea → Pitch → Prototype → Demo and/or Vertical Slice → Testing & Iterating → Final Game
 ## B. Development schedule
 
-// TODO
+See the [retroPlanning](/Management/retroPlanning.md) file for the detailed schedule of the project.
+
 
 ## C. Budget and Resources
 
@@ -512,4 +513,4 @@ The main resources used for the development of the game are people's time, knowl
 
 *All the links in this document are clickable and redirect to the source of our glossary.*
 
-<sub>Created on 2023-02-28 and updated on 2023-04-04 by [Nicolas MIDA](https://www.linkedin.com/in/nicolas-mida/) </sub> 
+<sub>Created on 2023-02-28 and last updated on 2023-04-13 by [Nicolas MIDA](https://www.linkedin.com/in/nicolas-mida/) </sub> 
