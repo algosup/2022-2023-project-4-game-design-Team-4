@@ -34,7 +34,7 @@ Other team members:
 		- [A. Tower Types](#a-tower-types)
 			- [Basic Tower - The Gunner](#basic-tower---the-gunner)
 			- [Slow Tower - The Bitcoin Launcher](#slow-tower---the-bitcoin-launcher)
-			- [Splash Tower - The Potato Gun](#splash-tower---the-potato-gun)
+			- [Splash Tower - The Missile Launcher](#splash-tower---the-missile-launcher)
 		- [B. Enemy Types](#b-enemy-types)
 			- [Basic Enemy - The Thief](#basic-enemy---the-thief)
 			- [Fast Enemy - The Slayer](#fast-enemy---the-slayer)
@@ -173,25 +173,25 @@ All the statitics(*in italic*) of the towers given below are not final. They are
 - **Description**: The basic tower is a tower that shoots dollars at the enemies. It is the most basic tower in the game.
 - **Cost**: The basic tower costs 60 dollars.
 - **Attack Type**: The basic tower shoots projectiles at the enemies. The projectiles are the most basic projectiles in the game, they deal damage to the enemies (*10 damage per projectile*) but the turret is the fastest turret in the game (*5 projectiles per second*).
-- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *80* dollars and the second upgrade costs *130* dollars. We don't know exactly a good balance for the upgrades yet.
+- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *80* dollars and the second upgrade costs *200* dollars. The first upgrade will increase the damage of the projectiles (*40 damage per projectile*) and the second upgrade will double them (*80 damage per projectile*).
 
 ![The first design of the basic tower.](./../Images/Turrets/Gunner.png)
 
 #### Slow Tower - The Bitcoin Launcher
 
 - **Description**: The slow tower is a tower that shoots bitcoin at the enemies.
-- **Cost**: The slow tower costs 180 dollars.
-- **Attack Type**: The slow tower shoots projectiles at the enemies. The projectiles are the slowest projectiles in the game, they deal damage to the enemies (*15 damage per projectile*) and they slow the enemies (*20% slow for 2 seconds*). The turret get a medium speed (*1 projectile every 1.5 seconds*).
-- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *200* dollars and the second upgrade costs *250* dollars. We don't know exactly a good balance for the upgrades yet.
+- **Cost**: The slow tower costs 200 dollars.
+- **Attack Type**: The slow tower shoots projectiles at the enemies. The projectiles are the slowest projectiles in the game, they deal damage to the enemies (*30 damage per projectile*) and they slow the enemies (*20% slow for 3 seconds*). The turret get a medium speed (*1 projectile every 1.5 seconds*).
+- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *280* dollars and the second upgrade costs *360* dollars. Each upgrade will increase the damage of the projectiles (*35/40 damage per projectile*) and the slow of the projectiles (*35/50% slow for 4 seconds*).
 
 ![The first design of the slow tower.](./../Images/Turrets/Bitcoin_Launcher.png)
 
-#### Splash Tower - The Potato Gun
+#### Splash Tower - The Missile Launcher
 
 - **Description**: The splash tower is a tower that throws gold ingots at the enemies. The gold ingots explode when they hit an enemy.
-- **Cost**: The splash tower costs 120 dollars.
-- **Attack Type**: The splash tower is the one with the most damage in the game. The projectiles are the most powerful projectiles in the game, they deal damage to the enemies in a radius of 2X2 tiles (25 damage per projectile). To balance the tower, the turret is the slowest turret in the game (*1 projectile every 2 seconds*).
-- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *160* dollars and the second upgrade costs *210* dollars. We don't know exactly a good balance for the upgrades yet.
+- **Cost**: The splash tower costs 300 dollars.
+- **Attack Type**: The splash tower is the one with the most damage in the game. The projectiles are the most powerful projectiles in the game, they deal damage to the enemies in a radius of 2X2 tiles (10 damage per projectile). To balance the tower, the turret is the slowest turret in the game (*1 projectile every 3 seconds*).
+- **Improvements costs**: The turret can be upgraded 2 times. The first upgrade costs *350* dollars and the second upgrade costs *400* dollars. We don't know exactly a good balance for the upgrades yet. Each upgrade will increase the damage of the projectiles (*15/20 damage per projectile*).
 
 ![The first design of the splash tower.](./../Images/Turrets/Potato_Gun.png)
 
