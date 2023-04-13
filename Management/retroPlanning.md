@@ -3,13 +3,11 @@
 ## WEEK 1
 
 - [x] Find a game idea
-
 - [x] Deliverable: **Game Idea** document
   - Game sumary
   - Game outline
   - Unique selling points
   - Similar competitive products
-
 - [x] Research/data organization
 - [x] Starting documents (V1)
 - [x] Github initialization
@@ -68,3 +66,5 @@
 - [ ] Oral presentation
 - [ ] Deliverable: **Final game**
 - [ ] Closure meeting
+
+*Each week start and end by a meeting with the team during which we determine the objectives of the week, the kpi, answer the questions.
