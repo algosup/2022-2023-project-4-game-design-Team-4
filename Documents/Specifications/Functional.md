@@ -168,8 +168,13 @@ Here the list of the different shortcuts :
 
 | Key | Action | Description | 
 | --- | ------ | ----------- |
-| `ESC` | Pause & Settings | Pause the game and access the settings menu |
-| `Left Click` | Select | The main action of the game. Click on a pre-location to place a turret, click on a turret to upgrade it. |
+| `Left Click` | Select | The main action of the game. You can place, upgrade or sell turrets with it. Also you can move the camera with it. |
+| `Right Click` | Cancel | Cancel the current action. |
+| `Z` | Moving | Move Forward |
+| `S` | Moving | Move Backward |
+| `Q` | Moving | Move Left |
+| `D` | Moving | Move Right |
+| `V` | Camera | Change the camera view to the first person view |
 
 ## D. The Turrets 
 
@@ -499,7 +504,6 @@ The main resources used for the development of the game are people's time, knowl
 | Blueprints | BP | [Blueprints](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) are visual scripting tools that allow you to create logic for your game without writing code. |
 | C++ | C++ | [C++](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". |
 | Head-Up Display | HUD | [Head-Up Display](https://en.wikipedia.org/wiki/Head-up_display) (HUD) is any transparent display that presents data without requiring users to look away from their usual viewpoints. |
-| Idle | Idle | [Idle](https://en.wikipedia.org/wiki/Incremental_game) also known as "inactive" games are video games that require little or no input from the player. The game typically continues to run and progress even when the player is not actively playing, allowing the player to accumulate resources and progress in the game over time.
 | Post-processing | PP | [Post-processing](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/index.html) is a technique used in computer graphics to improve the appearance of a rendered image. |
 | Steam | Steam | [Steam](https://store.steampowered.com/) is a digital distribution platform developed by Valve Corporation, which offers digital rights management (DRM), multiplayer gaming, video streaming and social networking services. |
 | Tower Defense | TD | [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) is a subgenre of strategy video games in which the player must defend a particular location or path against waves of enemies by strategically placing defensive structures, such as towers or traps, along the path to defeat the enemies before they reach their destination. |
