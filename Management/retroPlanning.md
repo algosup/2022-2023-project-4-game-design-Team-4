@@ -14,7 +14,7 @@
 
 ## WEEK 2
 
-- [x] Functional specifications with Fabien
+- [x] Functional specifications with Fabien Goulamhoussen
 - [x] Define features
 - [x] Define weapons and enemies specifications
 - [x] Design mock-up
