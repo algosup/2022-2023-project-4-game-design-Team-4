@@ -90,13 +90,12 @@ The last part of the game will be the part where the game is saved and loaded. W
 
 ### 3.2 Out of scope testing
 
-The out of scope testing will be the part of the game that is not implemented yet. We will not test the part of the game in each platform because we don't have the time to do it.
-
+The out of scope testing will be the part of the game that is not implemented yet.
 The last part of the game will be the part where the game is saved and loaded. We will test if the game is saved and loaded correctly.
 
 ## 4 Test Environment
 
-All the test are going to be run on Mac M1 with the M1 chip directly on the game. We will also test the game on a Windows computer with the same version of the game.
+All the test are going to be run on Mac M1 with the M1 chip directly on the game. We will also test the game on a Windows computer(Lenovo) with the same version of the game.
 
 ## 5 Primary User test
 
@@ -151,6 +150,7 @@ They are expected to pass all phases of the usage easily :
 ## 5 Testing
 
 To test our game we will use the test plan and the test cases. We will use the test plan to know what we need to test and the test cases to know how we will test it.
+The issues will be created on Github to know if the issue is fixed or not. The issues will be created by the QA and the team will be responsible to fix the issue. The QA will be responsible to test the issue and to close it if it is fixed. You can find the issues on the [Github issues tab](https://github.com/algosup/2022-2023-project-4-game-design-Team-4/issues)
 
 ## 6 Glossary
 
