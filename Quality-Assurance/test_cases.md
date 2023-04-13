@@ -97,7 +97,9 @@ Read the documentation
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|1|Correct the grammar or vocabulary mistakes|The documentation is well written and understandable|Fail|
+|1|Correct the grammar or vocabulary mistakes|The documentation is well written and understandable|Pass|
+
+!["Diagram of documentation test"](img/documentationTest.png)
 
 ### 1.4.Steps for the documentation test
 
@@ -129,6 +131,8 @@ Put the camera into the scene.
 |8|Touch D|Camera move right|Pass|
 |9|Touch Z|Camera move up|Pass|
 |10|Touch S|Camera move down|Pass|
+
+!["Diagram of camera test"](img/cameraTest.png)
 
 ### 2.4.Steps for the camera test
 
@@ -169,6 +173,8 @@ Create the path.
 |17|When the enemies die|The enemies are not in the scene|Pass|
 |18|When the enemies die|The enemies make an animation of death|Pass|
 
+!["Diagram of enemies test"](img/enemyTest.png)
+
 ### 3.4.Steps for the enemies test
 
 1. Create the enemies in the scene
@@ -207,13 +213,15 @@ ID|Action|Expected result|Pass/Fail|
 |25|When the tower is upgraded twice|The tower can't be upgrade again|Pass|
 |26|When the players click to sell the tower|The tower is sold|Pass|
 |27|When the tower is sold|The tower is not in the scene|Pass|
-|28|When the tower is sold|The players collect the money divided by 2 of the tower|Fail|
+|28|When the tower is sold|The players collect the money divided by 2 of the tower|Pass|
 |29|When the tower is sold|The tower can be build again|Pass|
 |30|When an enemies is in the range of a turret|Turret target the first enemy|Pass|
 |31|When an enemies is target|Turret turn to the enemy|Pass|
 |32|When an enemies is target|Turret shoot at the enemy|Pass|
 |33|When the turret shoot at the enemy|The enemy lose life|Pass|
 |34|When you click on the turret|Display the range of the turret|Pass|
+
+!["Diagram of turret test"](img/turretTest.png)
 
 ### 4.4.Steps for the tower test
 
@@ -264,6 +272,8 @@ Create the different towers
 |37|When the tower is upgrade|The player lose money|Pass|
 |38|When the tower is build|The player lose money|Pass|
 
+!["Diagram of money test"](img/moneyTest.png)
+
 ### 6.4.Steps for the money test
 
 1. Create the different enemies in the scene
@@ -293,6 +303,8 @@ Create the different enemies
 |40|When the player reach a certain amount of money|The player unlock an achievement|Fail|
 |41|When the player unlock an achievement|The player can see the achievement in the achievement menu|Fail|
 |42|When the player reach kill a certain enemy|The player unlock an achievement|Fail|
+
+!["Diagram of achievement test"](img/achievementTest.png)
 
 ### 7.4.Steps for the achievement test
 
@@ -326,6 +338,8 @@ Create the stat menu
 |47|When the player click on his stat|The player see the total of wave reach|Fail|
 |48|When the player click on his stat|The player see the maximum of wave reach|Fail|
 
+!["Diagram of player stat test"](img/playerStatTest.png)
+
 ### 8.4.Steps for the player stat test
 
 1. Create the different enemies in the scene
@@ -353,7 +367,9 @@ Create the settings
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|
 |49|When the player click on the settings button|The player can change the volume of the music in the game|Fail|
-|50|When the player click on the settings butto,|The player can change the resolution of the game|Fail|
+|50|When the player click on the settings button|The player can change the resolution of the game|Fail|
+
+!["Diagram of settings test"](img/settingTest.png)
 
 ### 9.4.Steps for the settings test
 
@@ -377,6 +393,8 @@ Create the pause part.
 |---|---|---|---|
 |51|When the player click on the setting button|The game is paused|Fail|
 
+!["Diagram of pause test"](img/pauseTest.png)
+
 ### 10.4.Steps for the pause test
 
 1. Create a pause button
@@ -398,6 +416,8 @@ Create the main menu.
 |---|---|---|---|
 |52|When the player click on the play button in the main menu|The player can access to the game|Pass|
 |53|When the player click on the settings button in the main menu|The player can access to the settings menu|Pass|
+
+!["Diagram of main menu test"](img/mainMenuTest.png)
 
 ### 11.4.Steps for the main menu test
 
@@ -422,6 +442,8 @@ Create the tutorial.
 |54|When the player click on the start is first game|The player directly show the tutorial|Pass|
 |55|When the player haver already a game save|The player can't access to the tutorial|Fail|
 
+!["Diagram of tutorial test"](img/tutorialTest.png)
+
 ### 12.4.Steps for the tutorial test
 
 1. Create a tutorial
@@ -443,10 +465,12 @@ Create tower and enemies.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|56|When the player click on the play button|The player can hear the sound of the game|Fail|
+|56|When the player click on the play button|The player can hear the sound of the game|Pass|
 |57|When a wave arrived|The player can hear the sound of a bank alarm|Fail|
 |58|When the player click on the pause button|The sound of the game stop|Fail|
 |59|When the player click on the resume button|The sound of the game resume|Fail|
+
+!["Diagram of audio test"](img/soundTest.png)
 
 ### 13.4.Steps for the audio test
 
@@ -473,8 +497,10 @@ Create a different path in the scene
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|60|When the player launch the game|The game is playable on a computer with low specifications|Fail|
-|61|Memory usage of the game|The game doesn't crash because of the memory usage|Fail|
+|60|When the player launch the game|The game is playable on a computer with low specifications|Pass|
+|61|Memory usage of the game|The game doesn't crash because of the memory usage|Pass|
+
+!["Diagram of performance test"](img/performanceTest.png)
 
 ### 14.4.Steps for the performance test
 
@@ -497,13 +523,15 @@ Create the third character.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|62|When the player reach a certain wave|The player can access to the third character|Fail|
-|63|Click on V|The player can control the third character|Fail|
+|62|When the player reach a certain wave|The player can access to the third character|Pass|
+|63|Click on V|The player can control the third character|Pass|
 |64|When the player take the control of the third character|The player can't create towers|Pass|
 |65|When the player take the control of the third character|The player can't upgrade towers|Fail|
 |66|When the player take the control of the third character|The player can't sell towers|Fail|
 |67|When the player take the control of the third character|The player can access to the settings menu|Fail|
-|68|When the player take the control of the third character|The player can click on "V" the player return to the Playable phase|Fail|
+|68|When the player take the control of the third character|The player can click on "V" the player return to the Playable phase|Pass|
+
+!["Diagram of third character test"](img/thirdCharacterTest.png)
 
 ## 16.End Game Test
 
@@ -519,10 +547,14 @@ One enemie arrived at the end of the path.
 
 |ID|Action|Expected result|Pass/Fail|
 |---|---|---|---|
-|69|When the enemies reach the end point of the path|The player access to the end game menu|Fail|
+|69|When the enemies reach the end point of the path|The player access to the end game menu|Pass|
 
 ### 16.4.Steps for the end-game test
 
 1. One enemie arrived at the end of the path.
 2. Verify that the player access to the end game menu when the enemies reach the end point of the path.
 3. Verify that the player can access to the end game menu when the player lose the game.
+
+The total of the test cases success is:
+
+!["Diagram of the total of the test cases success"](img/totalTest.png)
