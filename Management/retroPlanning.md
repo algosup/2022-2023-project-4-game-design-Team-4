@@ -62,9 +62,9 @@
 ## WEEK 7
 
 - [x] Starting documents (V3)
-- [ ] Documents done (V3)
-- [ ] Oral presentation
-- [ ] Deliverable: **Final game**
-- [ ] Closure meeting
+- [x] Documents done (V3)
+- [x] Oral presentation
+- [x] Deliverable: **Final game**
+- [x] Closure meeting
 
 *Each week start and end by a meeting with the team during which we determine the objectives of the week, the kpi, answer the questions.
