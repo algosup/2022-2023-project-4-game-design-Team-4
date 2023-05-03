@@ -1,5 +1,7 @@
 # Retro planning
 
+Link to our [Trello](https://trello.com/b/3A4N1iGM/project-4-game-design)
+
 ## WEEK 1
 
 - [x] Find a game idea
