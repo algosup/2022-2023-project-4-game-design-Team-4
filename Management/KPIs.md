@@ -618,21 +618,21 @@
 | Technical specification (V2)    | 100%      | 100%    | /                     |
 | Test plan (V2)                  | 100%      | 100%    | /                     |
 | Research document               | 2/2       | 2/2     | /                     |
-| Functionnal specifications (V2) | 100%      | 100%    | /                     |
-| Technical specification (V2)    | 100%      | 100%    | /                     |
-| Test plan (V2)                  | 100%      | 100%    | /                     |
+| Functionnal specifications (V3) | 100%      | 100%    | /                     |
+| Technical specification (V3)    | 100%      | 100%    | /                     |
+| Test plan (V3)                  | 100%      | 100%    | /                     |
 
-- **Functional specifications (V1 and V2)**
+- **Functional specifications (V1, V2 and V3)**
   - 0%: nothing
   - 70%: written
   - 100%: validated by the group
 
-- **Technical specification (V1 and V2)**
+- **Technical specification (V1, V2 and V3)**
   - 0%: nothing
   - 70%: written
   - 100%: validated by the group
 
-- **Test plan (V1 and V2)**
+- **Test plan (V1, V2 and V3)**
   - 0%: nothing
   - 70%: written
   - 100%: validated by the group
