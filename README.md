@@ -36,11 +36,9 @@ The team is composed of 5 students from the <a href="https://algosup.com/">ALGOS
 
 ### Installation
 
-#### Download the game
+#### Play the game
 
-To download the game, you have to download the .zip file of the project. You can do so by clicking on the green button "Code" and then on "Download ZIP".
-
- then launch the `VaultVanguard.exe` or `VaultVanguard.dmg` file depending on your operating system. You will find the executable files in the `FinalGame/WIN64` folder for Windows and in the `FinalGame/MAC` folder for Mac.
+To download the game, you must run the .uproject, located in the ``TestTD`` folder, in Unreal Engine 4.27
 
 ### Gameplay
 
